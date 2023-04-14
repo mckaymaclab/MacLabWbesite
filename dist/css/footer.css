@@ -1,0 +1,12 @@
+footer {
+  background-color: black;
+  width: 100%; }
+
+.footer-divContainer {
+  display: flex; }
+  .footer-divContainer div {
+    width: 100%;
+    height: 300px;
+    border: 1px solid #cdcdcd; }
+
+/*# sourceMappingURL=footer.css.map */

@@ -8,5 +8,12 @@
     text-decoration: none;
   }
 
+  #site-container{
+    max-width: 1440px ;
+    margin: auto;
+  }
 
-  @import "./navigation.scss"
+  @import "./variables.scss";
+  @import "./navigation.scss";
+  @import "./footer.scss";
+  @import "./home.scss";
