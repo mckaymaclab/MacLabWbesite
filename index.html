@@ -11,8 +11,17 @@
     <div id="site-container">
         <header>
             <main-menu></main-menu>
-                <section class="header-image">
-
+                <section class="main_section-headerImage">
+                    <div class="main_section_div-bannerText">
+                        <h1 class="section_div-bannerHeading">Mac Lab</h1>
+                        <p>Brief Description of the Mac lab!</p>
+                        <p> <strong> Today's hours:<span>8:00am - 5:00pm</span></strong></p>
+                        <a href="">
+                        <div class="main_section_div-bannerButton">
+                            See All Hours
+                        </div>
+                        </a>
+                    </div>
                 </section>
         </header>
         <main>
@@ -28,7 +37,7 @@
                 </div>
             </section>
             <section class="main_section-equipment">
-                <div class=" section-div-headingAligner">
+                <div class="section-div-headingAligner">
                     <h2>EQUIPMENT</h2> <span>See All</span>
                 </div>  
                 <div class="section_div-equipment">
@@ -39,6 +48,41 @@
                     <div></div>
                 </div>
             </section>
+            <section class="main_section-calendar">
+                <div class="section-div-headingAligner">
+                    <h2>CALENDAR</h2><span>See All</span>
+                </div>
+                <div class="section_div-calendar"></div>
+            </section>
+            <section class="main_section-slideshow">
+                <!-- Slideshow container -->
+                <div class="slideshow-container">
+
+                    <!-- Full-width images with number and caption text -->
+                    <div class="mySlides fade">
+                    <div class="numbertext">1 / 3</div>
+                    <img src="./img/home/slideshowPlaceholder.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext">2 / 3</div>
+                    <img src="./img/home/slideshowPlaceholder.png" style="width:100%">
+                    </div>
+                
+                    <div class="mySlides fade">
+                    <div class="numbertext">3 / 3</div>
+                    <img src="./img/home/slideshowPlaceholder.png" style="width:100%">
+                    </div>
+                </div>
+                <br>
+            
+                <!-- The dots/circles -->
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </section>
         </main>
         <footer>
             <main-footer></main-footer>
@@ -46,5 +90,6 @@
     </div>
     <script src="./js/loadMenu.js"></script>
     <script src="./js/loadFooter.js"></script>
+    <script src="./js/slideshow.js"></script>
 </body>
 </html>
