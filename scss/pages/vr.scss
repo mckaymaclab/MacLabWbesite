@@ -1,0 +1,91 @@
+/***********************************/
+//Banner 
+header{
+
+    width: 100%;
+
+    .main_section-headerImage-vr{
+        display: flex;
+        align-items: center;
+        height: 596px;
+        padding: 0px 130px;
+        background:url("/img/elementor-placeholder-image.webp");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+.main_section_div-bannerText-vr{
+
+
+  .section_div-bannerHeading-vr{
+    font-size: 50px;
+    margin-bottom: 30px;
+  } 
+  
+  p{
+    padding-bottom: 8px;
+    font-size: 23px;
+  }
+
+}
+
+/***********************************/
+//Apps section
+
+#main-vr{
+  padding: 0px ;
+
+  h2{
+    padding-left:130px;
+    padding-bottom: 90px;
+  }
+}
+
+.main_section-apps{
+  padding: 90px 0 90px 0;
+}
+
+.section_div-appsContainer{
+display: flex;
+overflow: scroll;
+padding-left: 100px;
+
+  &::-webkit-scrollbar{
+    display: none;
+  }
+
+}
+
+.div-app{
+  background-color: rgb(66, 66, 66);
+  width: 204px;
+  height: 356px;
+  border-radius: 30px;
+  margin-left: 20px;
+}
+
+.div-app-picture{
+  width:204px;
+  height: 281px;
+}
+
+.div-app-info{
+  height:75px;
+  border-radius:0 0 30px 30px;
+  background-color: rgb(224, 224, 224);
+  padding: 20px;
+}
+
+/***********************************/
+//Apps section
+
+.main_section-ourVr{
+ padding: 80px 180px;
+ background-color: rgb(224, 224, 224);
+}
+
+
+

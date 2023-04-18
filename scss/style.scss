@@ -14,7 +14,10 @@
     margin: auto;
   }
 
-  @import "./variables.scss";
-  @import "./navigation.scss";
-  @import "./footer.scss";
-  @import "./home.scss";
+  @import "./general/variables.scss";
+  @import "./general/button.scss";
+  @import "./general/alignment.scss";
+  @import "./components/navigation.scss";
+  @import "./components/footer.scss";
+  @import "./pages/home.scss";
+  @import "./pages/vr.scss";
