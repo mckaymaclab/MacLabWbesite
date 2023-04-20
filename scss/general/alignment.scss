@@ -3,3 +3,68 @@
     justify-content: space-between;
     align-items: center;
 }
+
+/***********************************/
+//Banner
+
+header{
+
+    width: 100%;
+
+    .main_section-headerImage{
+        display: flex;
+        align-items: center;
+        height: 596px;
+        padding: 0px 130px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
+
+
+.main_section_div-bannerText{
+
+  .section_div-bannerHeading{
+    font-size: 50px;
+    margin-bottom: 30px;
+  } 
+  
+  p{
+    padding-bottom: 8px;
+    font-size: 25px;
+  }
+
+}
+
+
+/***********************************/
+//FAQ Section 
+
+.faq-grid{
+    width: 100%;
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns: 20% 1fr 20%;
+
+    div{
+        padding: 30px 50px;
+        margin-bottom: 30px;
+        -webkit-box-shadow: 7px 9px 11px 1px rgba(107,107,107,0.31);
+        -moz-box-shadow: 7px 9px 11px 1px rgba(107,107,107,0.31);
+        box-shadow: 7px 9px 11px 1px rgba(107,107,107,0.31);  
+    }
+}
+
+.faq-question{
+    grid-column: 2/4;
+    border-radius: 20px 20px 0 20px;
+    
+}
+
+.faq-answer{
+    grid-column: 1/3;
+    color: white;
+    background-color: black;
+    border-radius: 20px 20px 20px 0px;
+}

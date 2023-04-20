@@ -1,35 +1,8 @@
 /***********************************/
-//Banner 
-header{
+//Banner
 
-    width: 100%;
-
-    .main_section-headerImage-vr{
-        display: flex;
-        align-items: center;
-        height: 596px;
-        padding: 0px 130px;
-        background:url("/img/elementor-placeholder-image.webp");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
-}
-
-
-.main_section_div-bannerText-vr{
-
-
-  .section_div-bannerHeading-vr{
-    font-size: 50px;
-    margin-bottom: 30px;
-  } 
-  
-  p{
-    padding-bottom: 8px;
-    font-size: 23px;
-  }
-
+.img-vr{
+  background: url("/img/elementor-placeholder-image.webp");
 }
 
 /***********************************/
@@ -80,12 +53,64 @@ padding-left: 100px;
 }
 
 /***********************************/
-//Apps section
+//VR information
 
 .main_section-ourVr{
  padding: 80px 180px;
- background-color: rgb(224, 224, 224);
+ background-color: rgb(238, 238, 238);
+}
+
+.section_div-vrGrid{
+  width: 100%;
+  padding-top: 70px;
+  display: grid;
+  grid-gap: 70px;
+  grid-template-columns: 1fr 1fr;
+
+  div{
+    height: 350px;
+
+    img{
+
+      width: 80%;
+      background-color: white;
+    }
+
+  }
+}
+
+.div_vrGrid-picture{
+  display: flex;
+  justify-content: center;
 }
 
 
+.div_vrGrid-text{
 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px;
+  
+  h2{
+    font-size: 50px;
+    font-weight: 300;
+  }
+
+  h4{
+    font-size: 20px;
+    font-weight: 600;
+  }
+
+  p{
+    padding-top:30px ;
+    font-size: 24px;
+  }
+}
+
+/***********************************/
+//VR FAQ
+
+.main-section-faqVr{
+  padding: 150px 180px;
+}

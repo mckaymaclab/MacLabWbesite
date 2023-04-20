@@ -1,22 +1,6 @@
 /***********************************/
-header {
-  width: 100%; }
-  header .main_section-headerImage-vr {
-    display: flex;
-    align-items: center;
-    height: 596px;
-    padding: 0px 130px;
-    background: url("/img/elementor-placeholder-image.webp");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover; }
-
-.main_section_div-bannerText-vr .section_div-bannerHeading-vr {
-  font-size: 50px;
-  margin-bottom: 30px; }
-.main_section_div-bannerText-vr p {
-  padding-bottom: 8px;
-  font-size: 23px; }
+.img-vr {
+  background: url("/img/elementor-placeholder-image.webp"); }
 
 /***********************************/
 #main-vr {
@@ -55,6 +39,41 @@ header {
 /***********************************/
 .main_section-ourVr {
   padding: 80px 180px;
-  background-color: #e0e0e0; }
+  background-color: #eeeeee; }
+
+.section_div-vrGrid {
+  width: 100%;
+  padding-top: 70px;
+  display: grid;
+  grid-gap: 70px;
+  grid-template-columns: 1fr 1fr; }
+  .section_div-vrGrid div {
+    height: 350px; }
+    .section_div-vrGrid div img {
+      width: 80%;
+      background-color: white; }
+
+.div_vrGrid-picture {
+  display: flex;
+  justify-content: center; }
+
+.div_vrGrid-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 40px; }
+  .div_vrGrid-text h2 {
+    font-size: 50px;
+    font-weight: 300; }
+  .div_vrGrid-text h4 {
+    font-size: 20px;
+    font-weight: 600; }
+  .div_vrGrid-text p {
+    padding-top: 30px;
+    font-size: 24px; }
+
+/***********************************/
+.main-section-faqVr {
+  padding: 150px 180px; }
 
 /*# sourceMappingURL=vr.css.map */
