@@ -77,12 +77,27 @@ nav {
   justify-content: space-between; }
 
 .nav_logo-container {
-  width: 25%;
+  width: 28%;
   border: 1px solid #cdcdcd;
   display: flex; }
   .nav_logo-container div {
     width: 100%;
     border: 1px solid #cdcdcd; }
+  .nav_logo-container svg {
+    width: 50%; }
+
+.logo-container_left {
+  display: flex;
+  justify-content: center; }
+
+.logo-container_right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 100;
+  padding: 0 20px; }
 
 .nav_buttons-container > li {
   display: inline-block; }
@@ -91,7 +106,7 @@ nav {
   display: block;
   color: white;
   font-size: 20px;
-  padding: 30px 30px; }
+  padding: 40px 30px; }
 
 /*----------drop down-----------*/
 .dropdown-content {
