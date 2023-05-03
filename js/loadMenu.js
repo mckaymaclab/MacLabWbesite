@@ -213,7 +213,7 @@ class menu  extends HTMLElement{
           </div>
     </div>
     <ul class="nav_buttons-container" >
-        <li><a href="index.html">MAC LAB</a></li>
+        <li><a href="/MacLabWbesite/index.html">MAC LAB</a></li>
         <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Events</a></li>
         <li>
             <a>Services <i class="fa-solid fa-angle-down"></i></a>
