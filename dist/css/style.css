@@ -150,7 +150,7 @@ footer {
 
 /***********************************/
 .img-home {
-  background: url("/blob/main/img/home/hero.jpg");
+  background: url("./img/home/hero.jpg");
   position: relative; }
 
 .img-home::after {
