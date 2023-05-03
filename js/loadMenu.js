@@ -223,7 +223,7 @@ class menu  extends HTMLElement{
               <li><a href="/pages/equipment.html">Equipement Check Out</a></li>
               <li><a href="/pages/vr.html">Vr Lab</a></li>
               <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Workshops</a></li>
-              <li><a href="pages/cricut.html">Cricut</a></li>
+              <li><a href="/MacLabWbesite/pages/cricut.html">Cricut</a></li>
             </ul>
           </li>
           <li><a href="">Contact Us</a></li>         
