@@ -11,11 +11,11 @@ header{
 
     width: 100%;
 
-    .main_section-headerImage{
+    .section-headerImage{
         display: flex;
         align-items: center;
-        height: 596px;
-        padding: 0px 130px;
+        height: 580px;
+        // padding: 0px 130px;
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -23,7 +23,9 @@ header{
 }
 
 
-.main_section_div-bannerText{
+.section_div-bannerText{
+
+    z-index: 1;
 
   .section_div-bannerHeading{
     font-size: 50px;

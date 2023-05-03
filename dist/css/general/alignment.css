@@ -6,21 +6,22 @@
 /***********************************/
 header {
   width: 100%; }
-  header .main_section-headerImage {
+  header .section-headerImage {
     display: flex;
     align-items: center;
-    height: 596px;
-    padding: 0px 130px;
+    height: 580px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; }
 
-.main_section_div-bannerText .section_div-bannerHeading {
-  font-size: 50px;
-  margin-bottom: 30px; }
-.main_section_div-bannerText p {
-  padding-bottom: 8px;
-  font-size: 25px; }
+.section_div-bannerText {
+  z-index: 1; }
+  .section_div-bannerText .section_div-bannerHeading {
+    font-size: 50px;
+    margin-bottom: 30px; }
+  .section_div-bannerText p {
+    padding-bottom: 8px;
+    font-size: 25px; }
 
 /***********************************/
 .faq-grid {

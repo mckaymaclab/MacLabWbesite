@@ -1,0 +1,38 @@
+/***********************************/
+.img-cricut {
+  background: url("/img/elementor-placeholder-image.webp"); }
+
+/***********************************/
+.main_section-wathisit {
+  width: 100%;
+  padding: 80px 180px 110px; }
+  .main_section-wathisit h2 {
+    text-align: left;
+    margin-bottom: 60px; }
+
+.section_div-cricutExplanation {
+  display: grid;
+  align-items: center;
+  grid-gap: 80px;
+  padding: 0px 110px;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr; }
+
+/***********************************/
+.main_section-howToUseIt {
+  padding: 80px 180px;
+  width: 100%;
+  background-color: #e1e1e1; }
+
+.section_div-cricutGrid {
+  width: 100%;
+  display: grid;
+  padding-top: 100px;
+  grid-template-columns: 1fr 1fr; }
+  .section_div-cricutGrid div {
+    height: 350px; }
+    .section_div-cricutGrid div img {
+      width: 80%;
+      background-color: white; }
+
+/*# sourceMappingURL=cricut.css.map */

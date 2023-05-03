@@ -1,8 +1,13 @@
-# Styles
+# styles
+This proejct is using SCSS for the styling sheets.  
+1. To work on the styles of this project run the command "npm run node-sass" 
+2. Make right click in the file you are working with and click in the option "open with live server"
+
+# Icons
 All the Icons for this web site were integrated from the library FontAwesome. Please visit https://fontawesome.com/ for more information about this lirbary. 
 
+FontAwesome account
 
-## FontAwesome account
 Username: mckaymaclab 
 Password: Maclabcode140a 
 
