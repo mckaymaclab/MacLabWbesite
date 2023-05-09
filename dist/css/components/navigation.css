@@ -10,11 +10,9 @@ nav {
 .nav_logo-container {
   width: 28%;
   max-width: 350px;
-  border: 1px solid #cdcdcd;
   display: flex; }
   .nav_logo-container div {
-    width: 100%;
-    border: 1px solid #cdcdcd; }
+    width: 100%; }
   .nav_logo-container svg {
     width: 50%; }
 
