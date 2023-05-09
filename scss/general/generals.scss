@@ -1,3 +1,23 @@
+//Font
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/***********************************/
+//Headings
+h2{
+    font-size: 40px;
+    color:$color1;
+}
+
+
+#site-container{
+    padding-top: 70px;
+
+}
+
 .align-center-row{
     display: flex;
     justify-content: space-between;
@@ -19,6 +39,7 @@ header{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+        color: white;
     }
 }
 
@@ -26,6 +47,8 @@ header{
 .section_div-bannerText{
 
     z-index: 1;
+    width: 45%;
+    margin-left:130px;
 
   .section_div-bannerHeading{
     font-size: 50px;
