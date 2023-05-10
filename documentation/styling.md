@@ -8,7 +8,7 @@ All the Icons for this web site were integrated from the library FontAwesome. Pl
 
 FontAwesome account
 
-Username: mckaymaclab 
+Email: mckaymaclab@byui.edu
 Password: Maclabcode140a 
 
 The Font Awesome Kit connection link  
