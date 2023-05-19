@@ -7,7 +7,7 @@ class menu  extends HTMLElement{
     this.innerHTML =`
     <nav>
     <div class="nav_logo-container">
-          <div class="logo-container_left">
+          <div class="byui-logo">
               <svg version="1.1"
               id="Layer_1" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
               xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 99.3 58"
@@ -208,22 +208,25 @@ class menu  extends HTMLElement{
               <text transform="matrix(1 0 0 1 -205.2575 148.6465)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:5px;">The good through text is where it is supposed </tspan><tspan x="0" y="6" style="font-family:'MyriadPro-Regular'; font-size:5px;">to be, don’t move it out of place pleaseeeee</tspan></text>
               </svg>
           </div>
-          <div class="logo-container_right">
-            <p><a href="/index.html">Mackay Library</a></p>
+          <div class="logo-container_text">
+            <p><a href="/index.html">Mckay Library</a></p>
           </div>
+          <div class="logo-container_text">
+            <p><a href="/index.html">Mac Lab</a></p>
+          </div>
+
     </div>
     <ul class="nav_buttons-container" >
-        <li><a href="/MacLabWbesite/index.html">MAC LAB</a></li>
         <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Events</a></li>
         <li>
             <a>Services <i class="fa-solid fa-angle-down"></i></a>
             <ul class="dropdown-content">
-              <li><a href="/MacLabWbesite/pages/3dPrinting.html">3D Priting</a></li>
-              <li><a href="/MacLabWbesite/pages/adobeHelp.html">Adobe Help</a></li>
-              <li><a href="/MacLabWbesite/pages/equipment.html">Equipement Check Out</a></li>
-              <li><a href="/MacLabWbesite/pages/vr.html">Vr Lab</a></li>
+              <li><a href="/pages/3dPrinting.html">3D Priting</a></li>
+              <li><a href="/pages/adobeHelp.html">Adobe Help</a></li>
+              <li><a href="/pages/equipment.html">Equipement Check Out</a></li>
+              <li><a href="/pages/vr.html">Vr Lab</a></li>
               <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Workshops</a></li>
-              <li><a href="/MacLabWbesite/pages/cricut.html">Cricut</a></li>
+              <li><a href="/pages/cricut.html">Cricut</a></li>
             </ul>
           </li>
           <li><a href="">Contact Us</a></li>         

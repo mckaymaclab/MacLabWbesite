@@ -1,6 +1,7 @@
 // Button
 .button{
-    padding: 25px 40px;
+    display: inline-block;
+    padding: 25px 80px;
     margin: 15px auto;
     font-weight: 500;
     color: white;
@@ -8,4 +9,7 @@
     border-radius: 30px;
     text-align: center;
     background-color: #982F6D;
+    -webkit-box-shadow: -1px 5px 6px 0px rgba(0,0,0,0.30);
+    -moz-box-shadow: -1px 5px 6px 0px rgba(0,0,0,0.30);
+    box-shadow: -1px 5px 6px 0px rgba(0,0,0,0.30);
     }

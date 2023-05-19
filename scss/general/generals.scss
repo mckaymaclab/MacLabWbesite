@@ -1,3 +1,11 @@
+//Website padding
+#site-container{
+    max-width: 1800px;
+    margin: auto;
+  }
+
+
+
 //Font
 @import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 *{
@@ -34,7 +42,8 @@ header{
     .section-headerImage{
         display: flex;
         align-items: center;
-        height: 580px;
+        height: 630px;
+        padding-top:100px;
         // padding: 0px 130px;
         background-repeat: no-repeat;
         background-position: center;
@@ -49,6 +58,7 @@ header{
     z-index: 1;
     width: 45%;
     margin-left:130px;
+    
 
   .section_div-bannerHeading{
     font-size: 50px;
