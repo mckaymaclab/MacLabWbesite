@@ -18,11 +18,11 @@
 
 /***********************************/
 h2 {
-  font-size: 40px;
+  font-size: 35px;
   color: #982F6D; }
 
 #site-container {
-  padding-top: 70px; }
+  padding-top: 40px; }
 
 .align-center-row {
   display: flex;
@@ -35,8 +35,8 @@ header {
   header .section-headerImage {
     display: flex;
     align-items: center;
-    height: 630px;
-    padding-top: 100px;
+    height: 430px;
+    padding-top: 50px;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -78,11 +78,11 @@ header {
 
 .button {
   display: inline-block;
-  padding: 25px 80px;
+  padding: 20px 60px;
   margin: 15px auto;
   font-weight: 500;
   color: white;
-  font-size: 24px;
+  font-size: 22px;
   border-radius: 30px;
   text-align: center;
   background-color: #982F6D;
@@ -100,9 +100,10 @@ nav {
   z-index: 2; }
 
 .nav_logo-container {
-  width: 35%;
+  width: 30%;
   max-width: 450px;
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .nav_logo-container div {
     width: 100%; }
   .nav_logo-container svg {
@@ -115,7 +116,6 @@ nav {
 .logo-container_text {
   display: flex;
   align-items: center;
-  justify-content: center;
   color: white;
   font-size: 24px;
   font-weight: 100;
@@ -127,12 +127,17 @@ nav {
 .nav_buttons-container > li {
   display: inline-block; }
 
+#divisor {
+  height: 50px;
+  width: 0;
+  border-left: 0.5px white solid; }
+
 .nav_buttons-container > li > a {
   display: block;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
-  padding: 40px 30px; }
+  padding: 25px 30px; }
 
 /*----------drop down-----------*/
 .dropdown-content {
@@ -142,7 +147,6 @@ nav {
   .dropdown-content a {
     display: block;
     font-size: 20px;
-    padding: 20px 40px;
     text-decoration: none;
     color: #313038; }
   .dropdown-content li:hover {
@@ -176,7 +180,7 @@ footer {
       line-height: 30px; }
 
 .main-home {
-  padding: 80px 180px; }
+  padding: 30px 180px; }
 
 /***********************************/
 .img-home {
@@ -200,18 +204,18 @@ footer {
   z-index: 1;
   text-align: center; }
   .section_div-homeText h1 {
-    font-size: 120px; }
+    font-size: 100px; }
   .section_div-homeText p {
-    font-size: 30px; }
+    font-size: 25px; }
 
 /***********************************/
 .section_div-servicesContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
-  padding: 70px 0 150px 0; }
+  padding: 50px 0 100px 0; }
   .section_div-servicesContainer div {
-    height: 80px;
+    height: 70px;
     border-radius: 50px;
     padding: 10px;
     background-color: white;

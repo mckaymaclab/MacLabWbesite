@@ -208,13 +208,11 @@ class menu  extends HTMLElement{
               <text transform="matrix(1 0 0 1 -205.2575 148.6465)"><tspan x="0" y="0" style="font-family:'MyriadPro-Regular'; font-size:5px;">The good through text is where it is supposed </tspan><tspan x="0" y="6" style="font-family:'MyriadPro-Regular'; font-size:5px;">to be, don’t move it out of place pleaseeeee</tspan></text>
               </svg>
           </div>
+          <div id="divisor"></div>
           <div class="logo-container_text">
             <p><a href="/index.html">Mckay Library</a></p>
           </div>
-          <div class="logo-container_text">
-            <p><a href="/index.html">Mac Lab</a></p>
-          </div>
-
+          <divid="divisor"></div>
     </div>
     <ul class="nav_buttons-container" >
         <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Events</a></li>

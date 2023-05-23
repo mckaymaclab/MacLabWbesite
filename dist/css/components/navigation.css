@@ -8,9 +8,10 @@ nav {
   z-index: 2; }
 
 .nav_logo-container {
-  width: 35%;
+  width: 30%;
   max-width: 450px;
-  display: flex; }
+  display: flex;
+  align-items: center; }
   .nav_logo-container div {
     width: 100%; }
   .nav_logo-container svg {
@@ -23,7 +24,6 @@ nav {
 .logo-container_text {
   display: flex;
   align-items: center;
-  justify-content: center;
   color: white;
   font-size: 24px;
   font-weight: 100;
@@ -35,12 +35,17 @@ nav {
 .nav_buttons-container > li {
   display: inline-block; }
 
+#divisor {
+  height: 50px;
+  width: 0;
+  border-left: 0.5px white solid; }
+
 .nav_buttons-container > li > a {
   display: block;
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 100;
-  padding: 40px 30px; }
+  padding: 25px 30px; }
 
 /*----------drop down-----------*/
 .dropdown-content {
@@ -50,7 +55,6 @@ nav {
   .dropdown-content a {
     display: block;
     font-size: 20px;
-    padding: 20px 40px;
     text-decoration: none;
     color: #313038; }
   .dropdown-content li:hover {
