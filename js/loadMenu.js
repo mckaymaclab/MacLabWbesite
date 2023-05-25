@@ -5,7 +5,7 @@ class menu  extends HTMLElement{
 
   connectedCallback(){
     this.innerHTML =`
-    <nav>
+  <nav>
     <div class="nav_logo-container">
           <div class="byui-logo">
               <svg version="1.1"
@@ -210,9 +210,12 @@ class menu  extends HTMLElement{
           </div>
           <div id="divisor"></div>
           <div class="logo-container_text">
-            <p><a href="/index.html">Mckay Library</a></p>
+            <p><a href="/index.html">McKay Library</a></p>
           </div>
-          <divid="divisor"></div>
+          <div id="divisor"></div>
+          <div class="logo-container_text">
+            <p><a href="/index.html">Mac Lab</a></p>
+          </div>
     </div>
     <ul class="nav_buttons-container" >
         <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Events</a></li>

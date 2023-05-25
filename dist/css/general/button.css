@@ -12,4 +12,7 @@
   -moz-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
   box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3); }
 
+#hours {
+  padding: 20px 40px; }
+
 /*# sourceMappingURL=button.css.map */
