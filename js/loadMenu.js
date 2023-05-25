@@ -222,12 +222,12 @@ class menu  extends HTMLElement{
         <li>
             <a>Services <i class="fa-solid fa-angle-down"></i></a>
             <ul class="dropdown-content">
-              <li><a href="/pages/3dPrinting.html">3D Priting</a></li>
-              <li><a href="/pages/adobeHelp.html">Adobe Help</a></li>
-              <li><a href="/pages/equipment.html">Equipement Check Out</a></li>
-              <li><a href="/pages/vr.html">Vr Lab</a></li>
-              <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Workshops</a></li>
-              <li><a href="/pages/cricut.html">Cricut</a></li>
+            <a href="/pages/3dPrinting.html"><li class="dropdown-item">3D Priting</li></a>
+            <a href="/pages/adobeHelp.html"><li class="dropdown-item">Adobe Help</li></a>
+            <a href="/pages/equipment.html"><li class="dropdown-item">Equipement Check Out</li></a>
+            <a href="/pages/vr.html"><li class="dropdown-item">Vr Lab</li></a>
+            <a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0"><li class="dropdown-item">Workshops</li></a>
+            <a href="/pages/cricut.html"><li class="dropdown-item">Cricut</li></a>
             </ul>
           </li>
           <li><a href="">Contact Us</a></li>         
@@ -235,5 +235,4 @@ class menu  extends HTMLElement{
   </nav>`
   }
 }
-
 window.customElements.define("main-menu", menu);

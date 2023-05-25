@@ -47,6 +47,9 @@ nav {
   font-weight: 100;
   padding: 20px 30px; }
 
+.dropdown-item {
+  padding: 20px 30px; }
+
 /*----------drop down-----------*/
 .dropdown-content {
   position: absolute;
@@ -58,9 +61,8 @@ nav {
     text-decoration: none;
     color: #313038; }
   .dropdown-content li:hover {
-    background-color: black; }
-    .dropdown-content li:hover a {
-      color: white; }
+    background-color: black;
+    color: white; }
 
 .nav_buttons-container li:hover .dropdown-content {
   display: block; }
