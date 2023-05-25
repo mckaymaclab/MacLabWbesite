@@ -15,7 +15,8 @@ nav {
   .nav_logo-container div {
     width: 100%; }
   .nav_logo-container svg {
-    width: 60%; }
+    width: 60%;
+    max-width: 100px; }
 
 .byui-logo {
   display: flex;
