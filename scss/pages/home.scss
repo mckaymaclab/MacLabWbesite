@@ -51,7 +51,13 @@ grid-template-columns: 1fr 1fr 1fr;
 grid-gap: 20px;
 padding: 50px 0 100px 0;
 
+    a{
+      color: #000000;
+      font-size: 20px;
+      border-radius: 50px;
+    }
 
+    
     div{
     height: 70px;
     border-radius: 50px;
@@ -71,21 +77,20 @@ padding: 50px 0 100px 0;
       margin-right:20px;
     }
 
-    
-
-    a{
-      color: #000000;
-      font-size: 20px;
-      margin: 20px  15px
-    }
-
     }
     #div_div-eq{
       padding: 10px;
 
     }
 
+    div:hover, a:hover{
+      background-color:#982F6D;
+      color: rgb(255, 255, 255);
+      
+    }
+
 }
+
 
 
 /***********************************/
@@ -130,7 +135,14 @@ padding: 50px 0 100px 0;
           }
         }
     }
+
+    div:hover{
+      background-color: #E6D9E3;
+      color: #982F6D;
+    }
+  
 }
+
 
 /***********************************/
 // Calendar 
@@ -142,7 +154,6 @@ padding: 50px 0 100px 0;
     border-radius: 50px;
     margin: 60px 0 130px 0;
 }
-
 /***********************************/
 // Slide Show 
 
