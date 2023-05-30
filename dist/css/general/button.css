@@ -10,7 +10,13 @@
   background-color: #982F6D;
   -webkit-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3); }
+  box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
+}
+
+.button:hover {
+  background-color: #FFFFFF;
+  color: #982F6D;
+}
 
 #hours {
   padding: 20px 40px; }
