@@ -12,14 +12,13 @@ nav {
   width: 30%;
   max-width: 450px;
   display: flex;
-  align-items: center;
-}
-.nav_logo-container div {
-  width: 100%;
-}
-.nav_logo-container svg {
-  width: 60%;
-}
+
+  align-items: center; }
+  .nav_logo-container div {
+    width: 100%; }
+  .nav_logo-container svg {
+    width: 60%;
+    max-width: 100px; }
 
 .byui-logo {
   display: flex;
@@ -54,27 +53,26 @@ nav {
   color: white;
   font-size: 20px;
   font-weight: 100;
-  padding: 25px 30px;
-}
+
+  padding: 20px 30px; }
+
+.dropdown-item {
+  padding: 20px 30px; }
 
 /*----------drop down-----------*/
 .dropdown-content {
   position: absolute;
   background-color: white;
-  display: none;
-}
-.dropdown-content a {
-  display: block;
-  font-size: 20px;
-  text-decoration: none;
-  color: #313038;
-}
-.dropdown-content li:hover {
-  background-color: rgb(0, 0, 0);
-}
-.dropdown-content li:hover a {
-  color: white;
-}
+
+  display: none; }
+  .dropdown-content a {
+    display: block;
+    font-size: 20px;
+    text-decoration: none;
+    color: #313038; }
+  .dropdown-content li:hover {
+    background-color: black;
+    color: white; }
 
 .nav_buttons-container li:hover .dropdown-content {
   display: block;
