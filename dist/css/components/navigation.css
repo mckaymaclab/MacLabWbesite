@@ -5,12 +5,14 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  z-index: 2; }
+  z-index: 2;
+}
 
 .nav_logo-container {
   width: 30%;
   max-width: 450px;
   display: flex;
+
   align-items: center; }
   .nav_logo-container div {
     width: 100%; }
@@ -20,7 +22,8 @@ nav {
 
 .byui-logo {
   display: flex;
-  justify-content: center; }
+  justify-content: center;
+}
 
 .logo-container_text {
   display: flex;
@@ -29,23 +32,28 @@ nav {
   font-size: 24px;
   font-weight: 100;
   padding: 0 20px;
-  white-space: nowrap; }
-  .logo-container_text a {
-    color: white; }
+  white-space: nowrap;
+}
+.logo-container_text a {
+  color: white;
+}
 
 .nav_buttons-container > li {
-  display: inline-block; }
+  display: inline-block;
+}
 
 #divisor {
   height: 50px;
   width: 0;
-  border-left: 0.5px white solid; }
+  border-left: 0.5px white solid;
+}
 
 .nav_buttons-container > li > a {
   display: block;
   color: white;
   font-size: 20px;
   font-weight: 100;
+
   padding: 20px 30px; }
 
 .dropdown-item {
@@ -55,6 +63,7 @@ nav {
 .dropdown-content {
   position: absolute;
   background-color: white;
+
   display: none; }
   .dropdown-content a {
     display: block;
@@ -66,6 +75,7 @@ nav {
     color: white; }
 
 .nav_buttons-container li:hover .dropdown-content {
-  display: block; }
+  display: block;
+}
 
 /*# sourceMappingURL=navigation.css.map */
