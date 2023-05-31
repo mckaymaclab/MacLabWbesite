@@ -7,39 +7,30 @@
   list-style: none;
   box-sizing: border-box;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
-}
+  font-family: Arial, Helvetica, sans-serif; }
 
 #site-container {
   max-width: 1800px;
-  margin: auto;
-}
+  margin: auto; }
 
 * {
-  font-family: "Open Sans", sans-serif;
-}
+  font-family: 'Open Sans', sans-serif; }
 
 /***********************************/
 h2 {
-
-  font-size: 35px;
-  color: #982F6D;
-}
-
+  font-size: 30px;
+  color: #982F6D; }
 
 #site-container {
-  padding-top: 40px;
-}
+  padding-top: 40px; }
 
 .align-center-row {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-}
+  align-items: center; }
 
 /***********************************/
 header {
-
   width: 100%; }
   header .section-headerImage {
     display: flex;
@@ -51,47 +42,39 @@ header {
     background-size: cover;
     color: white; }
 
-
 .section_div-bannerText {
   z-index: 1;
   width: 45%;
-  margin-left: 130px;
-}
-.section_div-bannerText .section_div-bannerHeading {
-  font-size: 50px;
-  margin-bottom: 30px;
-}
-.section_div-bannerText p {
-  padding-bottom: 8px;
-  font-size: 25px;
-}
+  margin-left: 130px; }
+  .section_div-bannerText .section_div-bannerHeading {
+    font-size: 50px;
+    margin-bottom: 30px; }
+  .section_div-bannerText p {
+    padding-bottom: 8px;
+    font-size: 25px; }
 
 /***********************************/
 .faq-grid {
   width: 100%;
   padding-top: 50px;
   display: grid;
-  grid-template-columns: 20% 1fr 20%;
-}
-.faq-grid div {
-  padding: 30px 50px;
-  margin-bottom: 30px;
-  -webkit-box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31);
-  -moz-box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31);
-  box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31);
-}
+  grid-template-columns: 20% 1fr 20%; }
+  .faq-grid div {
+    padding: 30px 50px;
+    margin-bottom: 30px;
+    -webkit-box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31);
+    -moz-box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31);
+    box-shadow: 7px 9px 11px 1px rgba(107, 107, 107, 0.31); }
 
 .faq-question {
   grid-column: 2/4;
-  border-radius: 20px 20px 0 20px;
-}
+  border-radius: 20px 20px 0 20px; }
 
 .faq-answer {
   grid-column: 1/3;
   color: white;
   background-color: black;
-  border-radius: 20px 20px 20px 0px;
-}
+  border-radius: 20px 20px 20px 0px; }
 
 .button {
   display: inline-block;
@@ -105,13 +88,7 @@ header {
   background-color: #982F6D;
   -webkit-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
   -moz-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
-  box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
-}
-
-.button:hover {
-  background-color: #FFFFFF;
-  color: #982F6D;
-}
+  box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3); }
 
 #hours {
   padding: 20px 40px; }
@@ -123,28 +100,22 @@ nav {
   display: flex;
   position: fixed;
   justify-content: space-between;
-  z-index: 2;
-}
+  z-index: 2; }
 
 .nav_logo-container {
   width: 30%;
   max-width: 450px;
   display: flex;
-
-  align-items: center;
-}
-.nav_logo-container div {
-  width: 100%;
-}
-.nav_logo-container svg {
-  width: 60%;
-}
-
+  align-items: center; }
+  .nav_logo-container div {
+    width: 100%; }
+  .nav_logo-container svg {
+    width: 60%;
+    max-width: 100px; }
 
 .byui-logo {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .logo-container_text {
   display: flex;
@@ -153,28 +124,23 @@ nav {
   font-size: 24px;
   font-weight: 100;
   padding: 0 20px;
-  white-space: nowrap;
-}
-.logo-container_text a {
-  color: white;
-}
+  white-space: nowrap; }
+  .logo-container_text a {
+    color: white; }
 
 .nav_buttons-container > li {
-  display: inline-block;
-}
+  display: inline-block; }
 
 #divisor {
   height: 50px;
   width: 0;
-  border-left: 0.5px white solid;
-}
+  border-left: 0.5px white solid; }
 
 .nav_buttons-container > li > a {
   display: block;
   color: white;
   font-size: 20px;
   font-weight: 100;
-
   padding: 20px 30px; }
 
 .dropdown-item {
@@ -184,8 +150,6 @@ nav {
 .dropdown-content {
   position: absolute;
   background-color: white;
-
-
   display: none; }
   .dropdown-content a {
     display: block;
@@ -196,48 +160,38 @@ nav {
     background-color: black;
     color: white; }
 
-
 .nav_buttons-container li:hover .dropdown-content {
-  display: block;
-}
+  display: block; }
 
 footer {
   background-color: black;
-  width: 100%;
-}
+  width: 100%; }
 
 .footer-divContainer {
   padding: 100px 180px;
   display: grid;
-  grid-template-columns: 50% 1fr 1fr;
-}
-.footer-divContainer div {
-  width: 100%;
-  color: white;
-}
-.footer-divContainer div h3 {
-  font-size: 20px;
-  margin-bottom: 15px;
-  color: white;
-}
-.footer-divContainer div p {
-  font-weight: 100;
-}
-.footer-divContainer div a {
-  color: white;
-  font-weight: 100;
-  line-height: 30px;
-}
+  grid-template-columns: 50% 1fr 1fr; }
+  .footer-divContainer div {
+    width: 100%;
+    color: white; }
+    .footer-divContainer div h3 {
+      font-size: 20px;
+      margin-bottom: 15px;
+      color: white; }
+    .footer-divContainer div p {
+      font-weight: 100; }
+    .footer-divContainer div a {
+      color: white;
+      font-weight: 100;
+      line-height: 30px; }
 
 .main-home {
-  padding: 30px 180px;
-}
+  padding: 30px 180px; }
 
 /***********************************/
 .img-home {
   background: url("/img/home/hero.jpg");
-  position: relative;
-}
+  position: relative; }
 
 .img-home::after {
   content: "";
@@ -248,68 +202,75 @@ footer {
   position: absolute;
   top: 0;
   bottom: 0;
-  opacity: 0.6;
-}
+  opacity: 0.6; }
 
 .section_div-homeText {
   margin: auto;
   color: white;
   z-index: 1;
-
-  text-align: center;
-}
-.section_div-homeText h1 {
-  font-size: 100px;
-}
-.section_div-homeText p {
-  font-size: 25px;
-}
+  text-align: center; }
+  .section_div-homeText h1 {
+    font-size: 90px; }
+  .section_div-homeText p {
+    font-size: 22px; }
 
 /***********************************/
 .section_div-servicesContainer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-gap: 20px;
+  padding: 50px 0 100px 0; }
+  .section_div-servicesContainer div {
+    height: 65px;
+    border-radius: 50px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+    box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22); }
+    .section_div-servicesContainer div i {
+      font-size: 40px;
+      margin-right: 20px; }
+    .section_div-servicesContainer div a {
+      color: #000000;
+      font-size: 20px;
+      margin: 20px 15px; }
+  .section_div-servicesContainer #div_div-eq {
+    padding: 10px; }
 
 /***********************************/
 .section_div-equipment {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-  padding: 60px 0 100px 0;
-}
-.section_div-equipment div {
-  border-radius: 30px;
-  height: 356px;
-  padding: 0 10px;
-  background-color: #E1E1E1;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  box-shadow: 0px 10px 5px -3px rgba(0, 0, 0, 0.16);
-}
-.section_div-equipment div img {
-  width: 100%;
-}
-.section_div-equipment div p {
-  display: block;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-  padding: 10px 20px 20px 20px;
-  background-color: white;
-  border-radius: 0 0 30px 30px;
-}
-.section_div-equipment div p span {
-  margin-top: 10px;
-  font-weight: 100;
-}
-.section_div-equipment div:hover {
-  background-color: #E6D9E3;
-  color: #982F6D;
-}
+  padding: 60px 0 100px 0; }
+  .section_div-equipment div {
+    border-radius: 30px;
+    height: 356px;
+    padding: 0 10px;
+    background-color: #E1E1E1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 5px -3px rgba(0, 0, 0, 0.16); }
+    .section_div-equipment div img {
+      width: 100%; }
+    .section_div-equipment div p {
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 20px 20px 20px;
+      background-color: white;
+      border-radius: 0 0 30px 30px; }
+      .section_div-equipment div p span {
+        margin-top: 10px;
+        font-weight: 100; }
 
 /***********************************/
 .section_div-calendar {
@@ -317,28 +278,23 @@ footer {
   height: 452px;
   border: solid 3px black;
   border-radius: 50px;
-  margin: 60px 0 130px 0;
-}
+  margin: 60px 0 130px 0; }
 
 /***********************************/
 /* Slideshow container */
 .slideshow-container {
   width: 100%;
-  position: relative;
-}
-.slideshow-container img {
-  border-radius: 30px;
-}
+  position: relative; }
+  .slideshow-container img {
+    border-radius: 30px; }
 
 /* Hide the images by default */
 .mySlides {
-  display: none;
-}
+  display: none; }
 
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover, .next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
+  background-color: rgba(0, 0, 0, 0.8); }
 
 /* Caption text */
 .text {
@@ -348,8 +304,7 @@ footer {
   position: absolute;
   bottom: 8px;
   width: 100%;
-  text-align: center;
-}
+  text-align: center; }
 
 /* Number text (1/3 etc) */
 .numbertext {
@@ -357,8 +312,7 @@ footer {
   font-size: 12px;
   padding: 8px 12px;
   position: absolute;
-  top: 0;
-}
+  top: 0; }
 
 /* The dots/bullets/indicators */
 .dot {
@@ -369,127 +323,102 @@ footer {
   background-color: #bbb;
   border-radius: 50%;
   display: inline-block;
-  transition: background-color 0.6s ease;
-}
+  transition: background-color 0.6s ease; }
 
 .active, .dot:hover {
-  background-color: #717171;
-}
+  background-color: #717171; }
 
 /* Fading animation */
 .fade {
   animation-name: fade;
-  animation-duration: 1.5s;
-}
+  animation-duration: 1.5s; }
 
-@keyframes fade {}
 /***********************************/
 .img-3dPrinting {
-  background: url("maclab/img/3d-printing/hero3Dprinting.jpeg");
-}
+  background: url("maclab/img/3d-printing/hero3Dprinting.jpeg"); }
 
 /***********************************/
 .img-vr {
-  background: url("maclab/img/cricut/slideshowPlaceholder.png");
-}
+  background: url("maclab/img/cricut/slideshowPlaceholder.png"); }
 
 /***********************************/
 #main-vr {
-  padding: 0px;
-}
-#main-vr h2 {
-  padding-left: 130px;
-  padding-bottom: 90px;
-}
+  padding: 0px; }
+  #main-vr h2 {
+    padding-left: 130px;
+    padding-bottom: 90px; }
 
 .main_section-apps {
-  padding: 90px 0 90px 0;
-}
+  padding: 90px 0 90px 0; }
 
 .section_div-appsContainer {
   display: flex;
   overflow: scroll;
-  padding-left: 100px;
-}
-.section_div-appsContainer::-webkit-scrollbar {
-  display: none;
-}
+  padding-left: 100px; }
+  .section_div-appsContainer::-webkit-scrollbar {
+    display: none; }
 
 .div-app {
-  background-color: rgb(66, 66, 66);
+  background-color: #424242;
   width: 204px;
   height: 356px;
   border-radius: 30px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 .div-app-picture {
   width: 204px;
-  height: 281px;
-}
+  height: 281px; }
 
 .div-app-info {
   height: 75px;
   border-radius: 0 0 30px 30px;
-  background-color: rgb(224, 224, 224);
-  padding: 20px;
-}
+  background-color: #e0e0e0;
+  padding: 20px; }
 
 /***********************************/
 .main_section-ourVr {
   padding: 80px 180px;
-  background-color: rgb(238, 238, 238);
-}
+  background-color: #eeeeee; }
 
 .section_div-vrGrid {
   width: 100%;
   padding-top: 70px;
   display: grid;
   grid-gap: 70px;
-  grid-template-columns: 1fr 1fr;
-}
-.section_div-vrGrid div {
-  height: 350px;
-}
-.section_div-vrGrid div img {
-  width: 80%;
-  background-color: white;
-}
+  grid-template-columns: 1fr 1fr; }
+  .section_div-vrGrid div {
+    height: 350px; }
+    .section_div-vrGrid div img {
+      width: 80%;
+      background-color: white; }
 
 .div_vrGrid-picture {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .div_vrGrid-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
-}
-.div_vrGrid-text h2 {
-  font-size: 50px;
-  font-weight: 300;
-}
-.div_vrGrid-text h4 {
-  font-size: 20px;
-  font-weight: 600;
-}
-.div_vrGrid-text p {
-  padding-top: 30px;
-  font-size: 24px;
-}
+  padding: 40px; }
+  .div_vrGrid-text h2 {
+    font-size: 50px;
+    font-weight: 300; }
+  .div_vrGrid-text h4 {
+    font-size: 20px;
+    font-weight: 600; }
+  .div_vrGrid-text p {
+    padding-top: 30px;
+    font-size: 24px; }
 
 /***********************************/
 .main-section-faqVr {
-  padding: 150px 180px;
-}
+  padding: 150px 180px; }
 
 /***********************************/
 .img-cricut {
   background: url("/img/cricut/pexels-mary-lisa-14064373.jpg");
-  position: relative;
-}
+  position: relative; }
 
 .img-cricut::after {
   content: "";
@@ -499,69 +428,43 @@ footer {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: rgb(0, 0, 0);
+  background: black;
   background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
   background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
   background: linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
-}
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1); }
 
 /***********************************/
 .main_section-wathisit {
   width: 100%;
   padding: 80px 20% 80px 180px;
-  font-size: 24px;
-}
-.main_section-wathisit h2 {
-  text-align: left;
-  margin-bottom: 60px;
-}
+  font-size: 24px; }
+  .main_section-wathisit h2 {
+    text-align: left;
+    margin-bottom: 60px; }
 
 .section_div-cricutExplanation {
   display: grid;
   align-items: center;
   grid-gap: 164px;
   font-size: 20px;
-  grid-template-columns: 1fr 1fr;
-}
+  grid-template-columns: 1fr 1fr; }
 
 /***********************************/
 .main_section-howToUseIt {
   padding: 80px 180px;
   width: 100%;
-  background-color: #e1e1e1;
-}
+  background-color: #e1e1e1; }
 
 .section_div-cricutGrid {
   width: 100%;
   display: grid;
   padding-top: 100px;
-  grid-template-columns: 1fr 1fr;
-}
-.section_div-cricutGrid div {
-  height: 350px;
-}
-.section_div-cricutGrid div img {
-  width: 80%;
-  background-color: white;
-}
-
-.img-adobeHelp {
-  background: url("/img/adobe-help/cynthiacarter-maclab-9.png");
-  position: relative; }
-
-.img-adobeHelp::after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background: black;
-  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 24%, rgba(0, 212, 255, 0) 100%);
-  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 24%, rgba(0, 212, 255, 0) 100%);
-  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 24%, rgba(0, 212, 255, 0) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1); }
+  grid-template-columns: 1fr 1fr; }
+  .section_div-cricutGrid div {
+    height: 350px; }
+    .section_div-cricutGrid div img {
+      width: 80%;
+      background-color: white; }
 
 /*# sourceMappingURL=style.css.map */

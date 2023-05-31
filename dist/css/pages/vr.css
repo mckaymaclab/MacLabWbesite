@@ -1,98 +1,79 @@
 /***********************************/
 .img-vr {
-  background: url("maclab/img/cricut/slideshowPlaceholder.png");
-}
+  background: url("maclab/img/cricut/slideshowPlaceholder.png"); }
 
 /***********************************/
 #main-vr {
-  padding: 0px;
-}
-#main-vr h2 {
-  padding-left: 130px;
-  padding-bottom: 90px;
-}
+  padding: 0px; }
+  #main-vr h2 {
+    padding-left: 130px;
+    padding-bottom: 90px; }
 
 .main_section-apps {
-  padding: 90px 0 90px 0;
-}
+  padding: 90px 0 90px 0; }
 
 .section_div-appsContainer {
   display: flex;
   overflow: scroll;
-  padding-left: 100px;
-}
-.section_div-appsContainer::-webkit-scrollbar {
-  display: none;
-}
+  padding-left: 100px; }
+  .section_div-appsContainer::-webkit-scrollbar {
+    display: none; }
 
 .div-app {
-  background-color: rgb(66, 66, 66);
+  background-color: #424242;
   width: 204px;
   height: 356px;
   border-radius: 30px;
-  margin-left: 20px;
-}
+  margin-left: 20px; }
 
 .div-app-picture {
   width: 204px;
-  height: 281px;
-}
+  height: 281px; }
 
 .div-app-info {
   height: 75px;
   border-radius: 0 0 30px 30px;
-  background-color: rgb(224, 224, 224);
-  padding: 20px;
-}
+  background-color: #e0e0e0;
+  padding: 20px; }
 
 /***********************************/
 .main_section-ourVr {
   padding: 80px 180px;
-  background-color: rgb(238, 238, 238);
-}
+  background-color: #eeeeee; }
 
 .section_div-vrGrid {
   width: 100%;
   padding-top: 70px;
   display: grid;
   grid-gap: 70px;
-  grid-template-columns: 1fr 1fr;
-}
-.section_div-vrGrid div {
-  height: 350px;
-}
-.section_div-vrGrid div img {
-  width: 80%;
-  background-color: white;
-}
+  grid-template-columns: 1fr 1fr; }
+  .section_div-vrGrid div {
+    height: 350px; }
+    .section_div-vrGrid div img {
+      width: 80%;
+      background-color: white; }
 
 .div_vrGrid-picture {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; }
 
 .div_vrGrid-text {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 40px;
-}
-.div_vrGrid-text h2 {
-  font-size: 50px;
-  font-weight: 300;
-}
-.div_vrGrid-text h4 {
-  font-size: 20px;
-  font-weight: 600;
-}
-.div_vrGrid-text p {
-  padding-top: 30px;
-  font-size: 24px;
-}
+  padding: 40px; }
+  .div_vrGrid-text h2 {
+    font-size: 50px;
+    font-weight: 300; }
+  .div_vrGrid-text h4 {
+    font-size: 20px;
+    font-weight: 600; }
+  .div_vrGrid-text p {
+    padding-top: 30px;
+    font-size: 24px; }
 
 /***********************************/
 .main-section-faqVr {
-  padding: 150px 180px;
-}
+  padding: 150px 180px; }
 
 /*# sourceMappingURL=vr.css.map */
