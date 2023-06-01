@@ -15,7 +15,8 @@
 /***********************************/
 //Headings
 h2{
-    font-size: 30px;
+    font-size: 35px;
+    font-weight: 600;
     color:$color1;
 }
 
@@ -65,14 +66,24 @@ header{
   
   p{
     padding-bottom: 8px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
 }
 
+/*************** Side by Side Text box *******************/
+// Applied for pages: Cricut, Adobe help
 
-/***********************************/
-//FAQ Section 
+.section_div-sideBysideText{
+    display: grid;
+    align-items: center;
+    grid-gap: 164px;
+    font-size: 20px;
+    grid-template-columns: 1fr 1fr;
+}
+
+/**************** FAQ Section *******************/
+//Applied for pages: Vr, Cricut, Adobe Help, Equipment, 3D Printing  
 
 .faq-grid{
     width: 100%;

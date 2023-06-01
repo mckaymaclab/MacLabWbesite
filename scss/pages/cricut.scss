@@ -1,12 +1,12 @@
-// main{
-//     padding: 80px 180px;
-//     }
+.main-cricut{
+    padding: 0px;
+}
   
   /***********************************/
   //Banner
   
   .img-cricut{
-    background: url("/img/cricut/pexels-mary-lisa-14064373.jpg");
+    background: url("/img/cricut/cricuthero.JPG");
     position: relative;
   }
 
@@ -40,13 +40,6 @@
     }
   }
 
-  .section_div-cricutExplanation{
-    display: grid;
-    align-items: center;
-    grid-gap: 164px;
-    font-size: 20px;
-    grid-template-columns: 1fr 1fr;
-  }
 
  /***********************************/
   //HOW TO USE IT SECTION

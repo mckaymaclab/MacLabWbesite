@@ -1,0 +1,68 @@
+
+
+// Banner pricture 
+.img-adobeHelp{
+    background: url("/img/adobeHelp/heroadobe.png");
+    position: relative;
+  }
+
+  //Overlay
+  .img-adobeHelp::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.7777704831932774) 34%, rgba(0,212,255,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.7777704831932774) 34%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0.7777704831932774) 34%, rgba(0,212,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+  }
+
+
+/***********************************/
+// Section In-person Help & ONline Help
+
+.main_section-helpText{
+
+  padding: 90px $paddingLeftRight;
+}
+
+
+/***********************************/
+// Programs section
+
+
+.main_section-programs{
+
+  padding: 60px $paddingLeftRight;
+  background-color: $color2;
+
+  .section_div-appsContainer{
+
+  padding: 90px 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+  div{
+    margin-bottom: 80px;
+  }
+
+
+  img{
+    width: 100%;
+    max-width: 171px;
+    display: block;
+    margin: auto;
+  }
+  p{
+    text-align: center;
+    font-size: 24px;
+    padding-top:8px;
+  }
+  }
+ 
+}

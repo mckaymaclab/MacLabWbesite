@@ -1,11 +1,11 @@
 .button {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 20px 30px;
   margin: 15px auto;
   font-weight: 500;
   color: white;
-  font-size: 22px;
-  border-radius: 30px;
+  font-size: 16px;
+  border-radius: 10px;
   text-align: center;
   background-color: #982F6D;
   -webkit-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);

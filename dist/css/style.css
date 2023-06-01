@@ -18,7 +18,8 @@
 
 /***********************************/
 h2 {
-  font-size: 30px;
+  font-size: 35px;
+  font-weight: 600;
   color: #982F6D; }
 
 #site-container {
@@ -51,9 +52,17 @@ header {
     margin-bottom: 30px; }
   .section_div-bannerText p {
     padding-bottom: 8px;
-    font-size: 25px; }
+    font-size: 20px; }
 
-/***********************************/
+/*************** Side by Side Text box *******************/
+.section_div-sideBysideText {
+  display: grid;
+  align-items: center;
+  grid-gap: 164px;
+  font-size: 20px;
+  grid-template-columns: 1fr 1fr; }
+
+/**************** FAQ Section *******************/
 .faq-grid {
   width: 100%;
   padding-top: 50px;
@@ -78,12 +87,12 @@ header {
 
 .button {
   display: inline-block;
-  padding: 20px 60px;
+  padding: 20px 30px;
   margin: 15px auto;
   font-weight: 500;
   color: white;
-  font-size: 22px;
-  border-radius: 30px;
+  font-size: 16px;
+  border-radius: 10px;
   text-align: center;
   background-color: #982F6D;
   -webkit-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
@@ -415,9 +424,12 @@ footer {
 .main-section-faqVr {
   padding: 150px 180px; }
 
+.main-cricut {
+  padding: 0px; }
+
 /***********************************/
 .img-cricut {
-  background: url("/img/cricut/pexels-mary-lisa-14064373.jpg");
+  background: url("/img/cricut/cricuthero.JPG");
   position: relative; }
 
 .img-cricut::after {
@@ -443,13 +455,6 @@ footer {
     text-align: left;
     margin-bottom: 60px; }
 
-.section_div-cricutExplanation {
-  display: grid;
-  align-items: center;
-  grid-gap: 164px;
-  font-size: 20px;
-  grid-template-columns: 1fr 1fr; }
-
 /***********************************/
 .main_section-howToUseIt {
   padding: 80px 180px;
@@ -466,5 +471,47 @@ footer {
     .section_div-cricutGrid div img {
       width: 80%;
       background-color: white; }
+
+.img-adobeHelp {
+  background: url("/img/adobeHelp/heroadobe.png");
+  position: relative; }
+
+.img-adobeHelp::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: black;
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.7777704832) 34%, rgba(0, 212, 255, 0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.7777704832) 34%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.7777704832) 34%, rgba(0, 212, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1); }
+
+/***********************************/
+.main_section-helpText {
+  padding: 90px 150px; }
+
+/***********************************/
+.main_section-programs {
+  padding: 60px 150px;
+  background-color: #F0F0F0; }
+  .main_section-programs .section_div-appsContainer {
+    padding: 90px 0px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; }
+    .main_section-programs .section_div-appsContainer div {
+      margin-bottom: 80px; }
+    .main_section-programs .section_div-appsContainer img {
+      width: 100%;
+      max-width: 171px;
+      display: block;
+      margin: auto; }
+    .main_section-programs .section_div-appsContainer p {
+      text-align: center;
+      font-size: 24px;
+      padding-top: 8px; }
 
 /*# sourceMappingURL=style.css.map */
