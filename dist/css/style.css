@@ -622,8 +622,11 @@ footer {
 .main_section-programs .section_div-appsContainer img {
   width: 100%;
   max-width: 171px;
+  height: 171px;
   display: block;
   margin: auto;
+  background-color: white;
+  border-radius: 30px;
 }
 .main_section-programs .section_div-appsContainer p {
   text-align: center;
