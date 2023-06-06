@@ -10,6 +10,22 @@
     position: relative;
   }
 
+  .section_div-bannerHeading{
+    font-size: 50px;
+    font-weight: bold;
+  }
+
+  #section_div-pannerP{
+    font-size: 20px;
+  }
+
+  #service{
+    font-size: 24px;
+    color: #c84392;
+  }
+
+
+
   //Overlay
 .img-cricut::after{
   content: "";
@@ -58,14 +74,33 @@
 
     div{
       height: 350px;
-  
+
       img{
-  
-        width: 80%;
-        background-color: white;
+        width: 100%;
       }
-  
+    }
+
+    h2{ 
+      font-size: 40px;
+      color: black;
+      margin: 40px;
+    }
+
+    p{
+      font-size: 24px;
+      margin: 50px;
     }
   }
 
+  .div_CricutGrid-picture{
+    display: flex;
+    justify-content: center;
+  }
+
   
+/***********************************/
+//Cricut FAQ
+
+.main-section-faqCricut{
+  padding: 150px 180px;
+}
