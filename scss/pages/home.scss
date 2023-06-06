@@ -95,12 +95,11 @@ padding: 50px 0 100px 0;
 
 /***********************************/
 // Equipment Section
-
-
 .section_div-equipment{
 
     display: grid;
     grid-gap: 20px;
+    //Grid with five colums for each equipment card
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding:60px 0 100px 0;
  
@@ -155,7 +154,6 @@ padding: 50px 0 100px 0;
 
 /***********************************/
 // Slide Show 
-
 
 /* Slideshow container */
 .slideshow-container {
@@ -220,8 +218,8 @@ padding: 50px 0 100px 0;
   }
   
   @keyframes fade {
-    // from {opacity: .4}
-    // to {opacity: 1}
+    from {opacity: .4}
+    to {opacity: 1}
  
   }
   
