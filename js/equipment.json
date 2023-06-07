@@ -1,0 +1,22 @@
+[
+    {
+        "title":"Head Phones",
+        "Rental-period": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://m.media-amazon.com/images/I/71jsrUhfSlS._AC_SX679_.jpg"
+    },
+
+    {
+        "title":"Mac Chargers",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://eshop.macsales.com/images/_gallery_/bin/APLMC556LLA-pimid70672-lg.jpg"
+    },
+
+    {
+        "title":"cricut",
+        "RentalPeriod": "2 weeks",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://m.media-amazon.com/images/I/61PYEkq7H4L.jpg"
+    }
+]
