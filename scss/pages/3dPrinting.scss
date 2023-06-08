@@ -48,4 +48,98 @@
   }
 
 
+/***********************************/
+// OUR FILAMENTS SECTION
+
+.main_section-Filaments{
+  padding: 80px 180px;
+  width: 100%;
+  background-color: white;
+}
+
+.section_div-filament{
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding:60px 0px 100px 0px;
+
+  div{
+    border-radius: 30px;
+    height: 348px;
+    width: 328px;
+    padding: 0 10px;
+    background-color: #E1E1E1;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.16);
+
+    img{
+      width: 100%;  
+    }
+
+    h2{ 
+      font-size: 40px;
+      margin: 40px;
+    }
+
+    p{
+      display: block;
+      position: absolute;
+      bottom: 0;
+      width: 100%;
+      padding: 10px 20px 20px 20px;
+      background-color: white;
+      border-radius:  0 0 30px 30px;
+
+      span{
+        margin-top:10px;
+        font-weight: 100;
+      }
+    }
+  }
+}
+
+.section_div-Colors{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  padding: 20px 30px;
+  
+}
+
+.dot{
+  height: 104px;
+  width: 104px;
+  border-radius: 50%;
+}
+
+
+/***********************************/
+// NEED SUPPORT SECTION
+
+
+.main_section-supports{
+  padding: 80px 180px;
+  width: 100%;
+  background-color: #E1E1E1;
+}
+
+.section_div-supports{
+  background-color: white;
+  height: 416px;
+  width: 100%;
+  border-radius: 30px;
+  padding:60px 0px 100px 0px;
+
+
+}
+
+
+
+
+
+
+
   
