@@ -214,7 +214,7 @@ class menu  extends HTMLElement{
           </div>
           <div id="divisor"></div>
           <div class="logo-container_text">
-            <p><a href="/index.html">Mac Lab</a></p>
+            <p><a href="https://library.byui.edu/maclab/">Mac Lab</a></p>
           </div>
     </div>
     <ul class="nav_buttons-container" >

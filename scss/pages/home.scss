@@ -1,8 +1,4 @@
 
-.main-home{
-  padding: 30px 180px;
-  }
-
 /***********************************/
 //Banner
 
@@ -44,6 +40,9 @@
 
 /***********************************/
 //Services
+.main_section-services{
+  padding: 0 $paddingLeftRight;
+}
 
 .section_div-servicesContainer{
 display: grid;
@@ -95,6 +94,10 @@ padding: 50px 0 100px 0;
 
 /***********************************/
 // Equipment Section
+.main_section-equipment{
+  padding: 80px $paddingLeftRight 20px $paddingLeftRight;
+}
+
 .section_div-equipment{
 
     display: grid;
@@ -144,16 +147,28 @@ padding: 50px 0 100px 0;
 /***********************************/
 // Calendar 
 
+.main_section-calendar{
+
+  background-color: $color2;
+  padding: 50px $paddingLeftRight 80px $paddingLeftRight;
+}
+
 .section_div-calendar{
     width: 100%;
     height: 452px;
     border: solid 3px black;
     border-radius: 50px;
-    margin: 60px 0 130px 0;
+    margin: 60px 0px 0px 0px;
 }
 
 /***********************************/
 // Slide Show 
+
+.main_section-slideshow{
+
+  padding: 0px $paddingLeftRight;
+  padding-bottom: 40px;
+}
 
 /* Slideshow container */
 .slideshow-container {
