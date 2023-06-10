@@ -244,7 +244,7 @@ footer {
 
 /***********************************/
 .img-home {
-  background: url("/img/home/hero.jpg");
+  background: url("https://library.byui.edu/maclab/img/home/hero.jpg");
   position: relative;
 }
 
@@ -571,7 +571,7 @@ footer {
 
 /***********************************/
 .img-cricut {
-  background: url("/img/cricut/cricuthero.JPG");
+  background: url("https://library.byui.edu/maclab/img/cricut/cricuthero.jpg");
   position: relative;
 }
 
@@ -655,7 +655,7 @@ footer {
 }
 
 .img-adobeHelp {
-  background: url("/img/adobeHelp/heroadobe.png");
+  background: url("https://library.byui.edu/maclab/img/adobeHelp/heroadobe.png");
   position: relative;
 }
 
