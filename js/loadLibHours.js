@@ -22,17 +22,15 @@ function getLabHours (){
 
     })
     .then(data => {
-debugger
         // Log the API data
-        console.log('token', data);
+        //console.log('token', data);
 
         // Return a second API call
         // This one uses the token we received for authentication
         return fetch('https://api2.libcal.com/1.1/hours/7593', {
             headers: {
                 'Authorization': data.token_type + ' ' + data.access_token,
-                'Content-Type': 'application/x-www-form-urlencoded'
-                
+                'Content-Type': 'application/x-www-form-urlencoded'               
             }
         });
 
