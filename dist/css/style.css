@@ -454,6 +454,73 @@ footer {
 }
 
 /***********************************/
+.main_section_ourPrinters {
+  padding: 80px 150px;
+  width: 100%;
+  background-color: white;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid,
+.main_section_ourPrinters .section_div-ourPrintersGridXL,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 {
+  width: 100%;
+  display: grid;
+  grid-gap: 20px;
+  padding-top: 50px;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid div,
+.main_section_ourPrinters .section_div-ourPrintersGridXL div,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid div img,
+.main_section_ourPrinters .section_div-ourPrintersGridXL div img,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 div img {
+  width: 100%;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid div a,
+.main_section_ourPrinters .section_div-ourPrintersGridXL div a,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 div a {
+  color: #982F6D;
+  text-decoration: underline;
+  font-weight: 200;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid .div_ourPrintersGrid-text,
+.main_section_ourPrinters .section_div-ourPrintersGridXL .div_ourPrintersGrid-text,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 .div_ourPrintersGrid-text {
+  display: flex;
+  justify-content: center;
+  background-color: #f5ebf1;
+  border-radius: 30px;
+  padding: 20px;
+  gap: 10px;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid .div_ourPrintersGrid-text h2,
+.main_section_ourPrinters .section_div-ourPrintersGridXL .div_ourPrintersGrid-text h2,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 .div_ourPrintersGrid-text h2 {
+  font-size: 40px;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid .div_ourPrintersGrid-text h4,
+.main_section_ourPrinters .section_div-ourPrintersGridXL .div_ourPrintersGrid-text h4,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 .div_ourPrintersGrid-text h4 {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+.main_section_ourPrinters .section_div-ourPrintersGrid .div_ourPrintersGrid-text p,
+.main_section_ourPrinters .section_div-ourPrintersGridXL .div_ourPrintersGrid-text p,
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 .div_ourPrintersGrid-text p {
+  font-size: 20px;
+}
+.main_section_ourPrinters .section_div-ourPrintersGridXL {
+  grid-template-columns: 2fr 1fr;
+}
+.main_section_ourPrinters .section_div-ourPrintersGridMK4 {
+  grid-template-columns: 1fr 2fr;
+}
+
+/***********************************/
 .main_section-howToPrint {
   padding: 80px 150px;
   width: 100%;
@@ -521,7 +588,8 @@ footer {
   box-shadow: 0px 10px 5px -3px rgba(0, 0, 0, 0.16);
 }
 .section_div-filament div img {
-  width: 100%;
+  width: 80%;
+  padding-bottom: 50px;
 }
 .section_div-filament div h2 {
   font-size: 40px;
@@ -572,6 +640,17 @@ footer {
 }
 .section_div-supports img {
   width: 100%;
+  border-radius: 30px;
+}
+.section_div-supports h3 {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+ul {
+  font-size: 20px;
+  padding-top: 25px;
+  list-style-type: disc;
 }
 
 /***********************************/
