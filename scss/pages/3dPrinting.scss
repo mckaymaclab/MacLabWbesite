@@ -5,8 +5,70 @@
     background: url("maclab/img/3d-printing/hero3Dprinting.jpeg");
   }
 
-
-
+/***********************************/
+  //OUR PRINTERS
+  .main_section_ourPrinters {
+    padding: 80px $paddingLeftRight;
+    width: 100%;
+    background-color: white;
+  
+    .section_div-ourPrintersGrid,
+    .section_div-ourPrintersGridXL,
+    .section_div-ourPrintersGridMK4 {
+      width: 100%;
+      display: grid;
+      grid-gap: 20px;
+      padding-top: 50px;
+  
+      div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+  
+        img {
+          width: 100%;
+        }
+  
+        a {
+          color: $color1;
+          text-decoration: underline;
+          font-weight: 200;
+        }
+      }
+  
+      .div_ourPrintersGrid-text {
+        display: flex;
+        justify-content: center;
+        background-color: #f5ebf1;
+        border-radius: 30px;
+        padding: 20px;
+        gap: 10px;
+  
+        h2 {
+          font-size: 40px;
+        }
+  
+        h4 {
+          font-size: 30px;
+          color: black;
+          font-weight: bold;
+        }
+  
+        p {
+          font-size: 20px;
+        }
+      }
+    }
+  
+    .section_div-ourPrintersGridXL {
+      grid-template-columns: 2fr 1fr;
+    }
+  
+    .section_div-ourPrintersGridMK4 {
+      grid-template-columns: 1fr 2fr;
+    }
+  }
+  
 /***********************************/
   //How to Print
 
@@ -87,7 +149,8 @@
     box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.16);
 
     img{
-      width: 100%;  
+      width: 80%;
+      padding-bottom: 50px;
     }
 
     h2{ 
@@ -148,7 +211,19 @@
 
   img{
     width: 100%;
+    border-radius: 30px;
   }
+
+  h3{
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+ul{
+  font-size: 20px;
+  padding-top: 25px;
+  list-style-type: disc;
 }
 
 
