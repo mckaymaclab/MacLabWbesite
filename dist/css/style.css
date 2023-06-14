@@ -902,7 +902,7 @@ footer {
   display: grid;
   grid-gap: 20px;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  padding: 60px 0px 100px 0px;
+  padding: 60px 0px 50px 0px;
 }
 .main_section-ourHours .main_section-divHours div {
   border-radius: 30px;
@@ -946,7 +946,7 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  box-shadow: 0px 4px 4px rgb(58, 58, 0);
+  box-shadow: 1px 4px 4px rgba(58, 58, 58, 0.15);
   border-radius: 10px;
 }
 
@@ -955,7 +955,7 @@ input[type=submit] {
   color: white;
   padding: 12px 20px;
   border: none;
-  border-radius: 4px;
+  border-radius: 10px;
   cursor: pointer;
 }
 
@@ -984,10 +984,11 @@ label {
   left: 795px;
   top: 840px;
 }
-.section_div-floorplan p {
+.section_div-floorplan div {
   font-size: 16;
   font-weight: 400;
   line-height: 22px;
+  padding: 5px 0px;
 }
 
 /***********************************/
