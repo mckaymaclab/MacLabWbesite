@@ -9,17 +9,16 @@ const displayEquipment = async () =>{
     equipmentInfo.forEach(item => {
         const card =`
         <div class="equipmentCard">
-            <div>
-                <h2>${item.title}<h2>
-                <h3>${item.RentalPeriod}<h3>
-                <p>${item.description}</p>
+            <div class="pictureBackground">
+                <img src="${item.Picture}" alt="">
             </div>
-            <div>
-            <img src="${item.Picture}"><img>
+            <div class="eq-description">
+                <p class="eq-name"><strong>${item.title}</strong></p>
+                <p>Details</p>
             </div>
         </div>
         `  
-        // document.querySelector('#section_div-equipmentCards').insertAdjacentHTML('beforeend',card)
+        document.querySelector('#section_div-equipmentCards').insertAdjacentHTML('beforeend',card)
     });  
 }
 

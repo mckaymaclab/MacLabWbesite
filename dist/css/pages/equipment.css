@@ -9,6 +9,10 @@ Error: Undefined variable: "$paddingLeftRight".
 9:   .main_section-equipment{
 10:     padding: 30px $paddingLeftRight;
 11:   }
+12: 
+13:   #section_div-equipmentCards{
+14:     padding: 30px 0px;
+15:   }
 
 Backtrace:
 scss/pages/equipment.scss:10
@@ -69,4 +73,4 @@ scss/pages/equipment.scss:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 10 of scss/pages/equipment.scss\A \A 5:     background: url(\"/img/equipment/heroEquipment.JPG\");\A 6:   }\A 7: \A 8: \A 9:   .main_section-equipment{\A 10:     padding: 30px $paddingLeftRight;\A 11:   }"; }
+  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 10 of scss/pages/equipment.scss\A \A 5:     background: url(\"/img/equipment/heroEquipment.JPG\");\A 6:   }\A 7: \A 8: \A 9:   .main_section-equipment{\A 10:     padding: 30px $paddingLeftRight;\A 11:   }\A 12: \A 13:   #section_div-equipmentCards{\A 14:     padding: 30px 0px;\A 15:   }"; }
