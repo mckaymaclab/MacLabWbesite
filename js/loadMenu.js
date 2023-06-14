@@ -209,19 +209,19 @@ class menu  extends HTMLElement{
               </svg>
           </div>
           <div id="divisor"></div>
-          <div class="logo-container_text">
+          <div id="logo-container_text">
             <p><a href="/index.html">McKay Library</a></p>
           </div>
           <div id="divisor"></div>
-          <div class="logo-container_text">
-            <p><a href="https://library.byui.edu/maclab/">Mac Lab</a></p>
+          <div id="logo-container_text">
+          <a href="https://library.byui.edu"><p>Mac Lab</p></a>
           </div>
     </div>
-    <ul class="nav_buttons-container" >
+    <ul id="nav_buttons-container" >
         <li><a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0">Events</a></li>
         <li>
             <a>Services <i class="fa-solid fa-angle-down"></i></a>
-            <ul class="dropdown-content">
+            <ul id="dropdown-content">
             <a href="https://library.byui.edu/maclab/pages/3dPrinting.html"><li class="dropdown-item">3D Priting</li></a>
             <a href="https://library.byui.edu/maclab/pages/adobeHelp.html"><li class="dropdown-item">Adobe Help</li></a>
             <a href="https://library.byui.edu/maclab/pages/equipment.html"><li class="dropdown-item">Equipement Check Out</li></a>

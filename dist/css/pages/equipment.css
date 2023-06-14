@@ -1,21 +1,17 @@
 /*
 Error: Undefined variable: "$paddingLeftRight".
-        on line 44 of scss/pages/home.scss
+        on line 10 of scss/pages/equipment.scss
 
-39: 
-40: 
-41: /***********************************\/
-42: //Services
-43: .main_section-services{
-44:   padding: 0 $paddingLeftRight;
-45: }
-46: 
-47: .section_div-servicesContainer{
-48: display: grid;
-49: grid-template-columns: 1fr 1fr 1fr;
+5:     background: url("/img/equipment/heroEquipment.JPG");
+6:   }
+7: 
+8: 
+9:   .main_section-equipment{
+10:     padding: 30px $paddingLeftRight;
+11:   }
 
 Backtrace:
-scss/pages/home.scss:44
+scss/pages/equipment.scss:10
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -73,4 +69,4 @@ scss/pages/home.scss:44
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 44 of scss/pages/home.scss\A \A 39: \A 40: \A 41: /***********************************/\A 42: //Services\A 43: .main_section-services{\A 44:   padding: 0 $paddingLeftRight;\A 45: }\A 46: \A 47: .section_div-servicesContainer{\A 48: display: grid;\A 49: grid-template-columns: 1fr 1fr 1fr;"; }
+  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 10 of scss/pages/equipment.scss\A \A 5:     background: url(\"/img/equipment/heroEquipment.JPG\");\A 6:   }\A 7: \A 8: \A 9:   .main_section-equipment{\A 10:     padding: 30px $paddingLeftRight;\A 11:   }"; }

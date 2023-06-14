@@ -8,13 +8,33 @@
     <title>Equipment</title>
 </head>
 <body>
+    <main-menu></main-menu>
     <div id="site-container">
         <header>
-            <main-menu></main-menu>
-                <section class="header-image">
-                </section>
+            <section class="section-headerImage img-equipment">
+                <div class="section_div-bannerText">
+                    <h1 class="section_div-bannerHeading">Equipment Checkout</h1>
+                    <p>We rent out cameras, tripods, headphones, Wacom drawing tablets, Cricuts, microphones, projectors and more - for free!</p>
+                    <p id="service">*Equipment check out only available in person.</p>
+                </div>
+            </section>
         </header>
         <main>
+            <section class="main_section-equipment">
+                <h2>Equipment</h2>
+                <div id="section_div-equipmentCards">
+                    <div class="equipmentCard">
+                        <div>
+                            <img src="/img/equipment/camera.png" alt="">
+                        </div>
+                        <div>
+                            <p>DSLR camera</p>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
         </main>
         <footer>
             <main-footer></main-footer>
@@ -22,5 +42,6 @@
     </div>
     <script src="../js/loadFooter.js"></script>
     <script src="../js/loadMenu.js"></script>
+    <script src="/js/renderEquipment.js"></script>
 </body>
 </html>

@@ -1,6 +1,5 @@
 //Website padding
 #site-container{
-    max-width: 2000px;
     margin: auto;
   }
 
@@ -21,6 +20,8 @@ h2{
 }
 
 
+
+
 #site-container{
     padding-top: 40px;
 
@@ -30,6 +31,11 @@ h2{
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    a{
+        color: $color1;
+        font-size: 20px;
+    }
 }
 
 /***********************************/

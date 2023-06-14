@@ -19,7 +19,7 @@ const displayEquipment = async () =>{
             </div>
         </div>
         `  
-        document.querySelector('section').insertAdjacentHTML('beforeend',card)
+        // document.querySelector('#section_div-equipmentCards').insertAdjacentHTML('beforeend',card)
     });  
 }
 
