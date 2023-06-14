@@ -2,26 +2,38 @@
   //Banner
   
   .img-equipment{
-    background: url("/img/equipment/heroEquipment.JPG");
+    background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/heroEquipment.jpg?raw=true");
+    position: relative;
   }
+
+  //Overlay
+  .img-equipment::after{
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    background: rgb(0,0,0);
+    background: -moz-linear-gradient(90deg, rgba(0,0,0,0.8674063375350141) 34%, rgba(0,212,255,0) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(0,0,0,0.8674063375350141) 34%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(90deg, rgba(0,0,0,0.8674063375350141) 34%, rgba(0,212,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+}
 
 
   .main_section-equipment{
     padding: 30px $paddingLeftRight;
   }
 
-  #section_div-equipmentCards{
-    padding: 30px 0px;
-  }
+
 
 /***********************************/
   //Equipment Section
 
-  .equipmentCard{
-    border-radius:  30px 30px 30px 30px;
-    -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
-    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
-    box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+  #section_div-equipmentCards{
+    padding: 30px 0px;
   }
 
   #section_div-equipmentCards{
@@ -30,17 +42,32 @@
     grid-gap: 40px;
   }
 
+  .equipmentCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:  30px 30px 30px 30px;
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+  }
+
 
   .pictureBackground{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
     background: $color2;
     padding: 30px 50px;
     border-radius:  30px 30px 0px 0px;
-
+  
     img{
       width: 100%;
     } 
   }
   .eq-description{
+    height: 80px;
     padding: 15px 50px;
     border-radius:  0px 0px 30px 30px;
     background-color: white;
@@ -53,5 +80,16 @@
     p:nth-child(2){
       font-size: 16px;
       font-weight: 100;
+    }
+  }
+
+  /***********************************/
+  //Policies
+  .main_section-policies{
+    background-color: $color2;
+    padding: 100px $paddingLeftRight ;
+
+    h2{
+      margin-bottom: 40px;
     }
   }

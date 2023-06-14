@@ -3,20 +3,27 @@
         "title":"DSLR Camera",
         "Rental-period": "2 Weeks",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://drive.google.com/drive/folders/1rfYYyU4CAS3MqyFjYTIcRbSC8QdcOIuE"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/camera.png?raw=true"
     },
 
     {
-        "title":"Mac Chargers",
+        "title":"HeadPhones",
         "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://eshop.macsales.com/images/_gallery_/bin/APLMC556LLA-pimid70672-lg.jpg"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/headphones.png?raw=true"
     },
 
     {
-        "title":"cricut",
-        "RentalPeriod": "2 weeks",
+        "title":"Projector",
+        "RentalPeriod": "3 Days",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://m.media-amazon.com/images/I/61PYEkq7H4L.jpg"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/projector.png?raw=true"
+    },
+
+    {
+        "title":"P",
+        "RentalPeriod": "3 Days",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/videoCamera.png?raw=true"
     }
 ]

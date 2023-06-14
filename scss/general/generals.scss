@@ -61,7 +61,7 @@ header{
 .section_div-bannerText{
 
     z-index: 1;
-    width: 45%;
+    width: 38%;
     margin-left:130px;
     
 
@@ -90,6 +90,9 @@ header{
 
 /**************** FAQ Section *******************/
 //Applied for pages: Vr, Cricut, Adobe Help, Equipment, 3D Printing  
+.faq-container{
+    padding: 150px $paddingLeftRight;
+}
 
 .faq-grid{
     width: 100%;
@@ -111,10 +114,56 @@ header{
     border-radius: 20px 20px 0px 20px;
     color: white;
     background-color: black;
-    
 }
 
 .faq-answer{
     grid-column: 2/4;
     border-radius: 20px 20px 20px 20px;
 }
+
+
+// Test Animations
+
+/* lineup class and keyframes */
+.lineUp {
+    animation: 2s anim-lineUp ease-out;
+  }
+  @keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+
+
+  /* flipping class and key frames*/
+.flipX {
+    animation: 1s anim-flipX ease;
+  }
+
+  @keyframes anim-flipX {
+    0% {
+      opacity: 0;
+      transform: rotateX(90def);
+    }
+    50% {
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+    100% {
+      /* animate nothing to pause animation at the end */
+      opacity: 1;
+      transform: rotateX(720deg);
+    }
+  }

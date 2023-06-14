@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$paddingLeftRight".
-        on line 11 of scss/pages/3dPrinting.scss
+        on line 25 of scss/pages/3dPrinting.scss
 
-6:   }
-7: 
-8: /***********************************\/
-9:   //OUR PRINTERS
-10:   .main_section_ourPrinters {
-11:     padding: 80px $paddingLeftRight;
-12:     width: 100%;
-13:     background-color: white;
-14:   
-15:     .section_div-ourPrintersGrid,
-16:     .section_div-ourPrintersGridXL,
+20: }
+21: 
+22: /***********************************\/
+23:   //OUR PRINTERS
+24:   .main_section_ourPrinters {
+25:     padding: 80px $paddingLeftRight;
+26:     width: 100%;
+27:     background-color: white;
+28:   
+29:     .section_div-ourPrintersGrid,
+30:     .section_div-ourPrintersGridXL,
 
 Backtrace:
-scss/pages/3dPrinting.scss:11
+scss/pages/3dPrinting.scss:25
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -73,4 +73,4 @@ scss/pages/3dPrinting.scss:11
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 11 of scss/pages/3dPrinting.scss\A \A 6:   }\A 7: \A 8: /***********************************/\A 9:   //OUR PRINTERS\A 10:   .main_section_ourPrinters {\A 11:     padding: 80px $paddingLeftRight;\A 12:     width: 100%;\A 13:     background-color: white;\A 14:   \A 15:     .section_div-ourPrintersGrid,\A 16:     .section_div-ourPrintersGridXL,"; }
+  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 25 of scss/pages/3dPrinting.scss\A \A 20: }\A 21: \A 22: /***********************************/\A 23:   //OUR PRINTERS\A 24:   .main_section_ourPrinters {\A 25:     padding: 80px $paddingLeftRight;\A 26:     width: 100%;\A 27:     background-color: white;\A 28:   \A 29:     .section_div-ourPrintersGrid,\A 30:     .section_div-ourPrintersGridXL,"; }

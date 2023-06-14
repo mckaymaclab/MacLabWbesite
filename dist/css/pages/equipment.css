@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$paddingLeftRight".
-        on line 10 of scss/pages/equipment.scss
+        on line 27 of scss/pages/equipment.scss
 
-5:     background: url("/img/equipment/heroEquipment.JPG");
-6:   }
-7: 
-8: 
-9:   .main_section-equipment{
-10:     padding: 30px $paddingLeftRight;
-11:   }
-12: 
-13:   #section_div-equipmentCards{
-14:     padding: 30px 0px;
-15:   }
+22:     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+23: }
+24: 
+25: 
+26:   .main_section-equipment{
+27:     padding: 30px $paddingLeftRight;
+28:   }
+29: 
+30: 
+31: 
+32: /***********************************\/
 
 Backtrace:
-scss/pages/equipment.scss:10
+scss/pages/equipment.scss:27
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -73,4 +73,4 @@ scss/pages/equipment.scss:10
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 10 of scss/pages/equipment.scss\A \A 5:     background: url(\"/img/equipment/heroEquipment.JPG\");\A 6:   }\A 7: \A 8: \A 9:   .main_section-equipment{\A 10:     padding: 30px $paddingLeftRight;\A 11:   }\A 12: \A 13:   #section_div-equipmentCards{\A 14:     padding: 30px 0px;\A 15:   }"; }
+  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 27 of scss/pages/equipment.scss\A \A 22:     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\"#000000\",endColorstr=\"#00d4ff\",GradientType=1);\A 23: }\A 24: \A 25: \A 26:   .main_section-equipment{\A 27:     padding: 30px $paddingLeftRight;\A 28:   }\A 29: \A 30: \A 31: \A 32: /***********************************/"; }

@@ -42,25 +42,28 @@
     width: 100%;
     background-color: white;
     display: grid;
+    grid-gap: 30px;
     grid-template-columns: 1fr 1fr;
   }
   
-  input[type=text],
+  .imput-form[type=text],
   select,
   textarea {
     width: 100%;
-    padding: 12px;
+    padding: 20px 20px;
     border: 1px solid white;
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    // box-shadow: 0px 4px 4px rgba(58, 58, 0.25);
-    border-radius: 10px;
+    border-radius: 15px;
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
   }
   
-  input[type=submit] {
+  .imput-form[type=submit] {
     background-color: $color1;
     color: white;
     padding: 12px 20px;
@@ -89,16 +92,14 @@
     padding: 24px;
 
     img{
-        width: 472px;
-        height: 308px;
-        left: 795px;
-        top: 840px;
+        width: 100%;
     }
 
     p{
-        font-size: 16;
+        font-size: 16px;
         font-weight: 400;
         line-height: 22px;
+        margin-bottom: 20px;
     }
   }
 
