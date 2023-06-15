@@ -32,7 +32,7 @@
       width: 100%;
       display: grid;
       grid-gap: 20px;
-      padding-top: 50px;
+      padding: 50px 0px 0px 20px;
   
       div {
         display: flex;
@@ -40,13 +40,7 @@
         justify-content: center;
   
         img {
-          width: 100%;
-        }
-  
-        a {
-          color: $color1;
-          text-decoration: underline;
-          font-weight: 200;
+          width: 80%;
         }
       }
   
@@ -75,11 +69,11 @@
     }
   
     .section_div-ourPrintersGridXL {
-      grid-template-columns: 2fr 1fr;
+      grid-template-columns: 1.05fr 1fr;
     }
   
     .section_div-ourPrintersGridMK4 {
-      grid-template-columns: 1fr 2fr;
+      grid-template-columns: 1fr 1.05fr;
     }
   }
   

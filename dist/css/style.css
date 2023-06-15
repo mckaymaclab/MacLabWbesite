@@ -58,13 +58,16 @@ header .section-headerImage {
 .section_div-bannerText {
   z-index: 1;
   width: 38%;
-  margin-left: 130px; }
-  .section_div-bannerText .section_div-bannerHeading {
-    font-size: 50px;
-    margin-bottom: 30px; }
-  .section_div-bannerText p {
-    padding-bottom: 8px;
-    font-size: 20px; }
+  margin-left: 130px;
+}
+.section_div-bannerText .section_div-bannerHeading {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+.section_div-bannerText p {
+  padding-bottom: 8px;
+  font-size: 20px;
+}
 
 /*************** Side by Side Text box *******************/
 .section_div-sideBysideText {
@@ -77,7 +80,8 @@ header .section-headerImage {
 
 /**************** FAQ Section *******************/
 .faq-container {
-  padding: 150px 150px; }
+  padding: 150px 150px;
+}
 
 .faq-grid {
   width: 100%;
@@ -107,35 +111,46 @@ header .section-headerImage {
 
 /* lineup class and keyframes */
 .lineUp {
-  animation: 2s anim-lineUp ease-out; }
+  animation: 2s anim-lineUp ease-out;
+}
 
 @keyframes anim-lineUp {
   0% {
     opacity: 0;
-    transform: translateY(80%); }
+    transform: translateY(80%);
+  }
   20% {
-    opacity: 0; }
+    opacity: 0;
+  }
   50% {
     opacity: 1;
-    transform: translateY(0%); }
+    transform: translateY(0%);
+  }
   100% {
     opacity: 1;
-    transform: translateY(0%); } }
+    transform: translateY(0%);
+  }
+}
 /* flipping class and key frames*/
 .flipX {
-  animation: 1s anim-flipX ease; }
+  animation: 1s anim-flipX ease;
+}
 
 @keyframes anim-flipX {
   0% {
     opacity: 0;
-    transform: rotateX(90def); }
+    transform: rotateX(90def);
+  }
   50% {
     opacity: 1;
-    transform: rotateX(720deg); }
+    transform: rotateX(720deg);
+  }
   100% {
     /* animate nothing to pause animation at the end */
     opacity: 1;
-    transform: rotateX(720deg); } }
+    transform: rotateX(720deg);
+  }
+}
 .button {
   display: inline-block;
   padding: 20px 30px;
@@ -290,8 +305,9 @@ footer {
 
 /***********************************/
 .img-home {
-  background: url("https://library.byui.edu/maclab/img/home/hero.jpg");
-  position: relative; }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/home/hero.jpg?raw=true");
+  position: relative;
+}
 
 .img-home::after {
   content: "";
@@ -487,7 +503,21 @@ footer {
 /* Fading animation */
 /***********************************/
 .img-3dPrinting {
-  background: url("maclab/img/3d-printing/hero3Dprinting.jpeg"); }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/adobeHelp/heroadobe.png?raw=true");
+  position: relative;
+}
+
+.img-3dPrinting::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.6;
+}
 
 /***********************************/
 .main_section_ourPrinters {
@@ -501,7 +531,7 @@ footer {
   width: 100%;
   display: grid;
   grid-gap: 20px;
-  padding-top: 50px;
+  padding: 50px 0px 0px 20px;
 }
 .main_section_ourPrinters .section_div-ourPrintersGrid div,
 .main_section_ourPrinters .section_div-ourPrintersGridXL div,
@@ -513,14 +543,7 @@ footer {
 .main_section_ourPrinters .section_div-ourPrintersGrid div img,
 .main_section_ourPrinters .section_div-ourPrintersGridXL div img,
 .main_section_ourPrinters .section_div-ourPrintersGridMK4 div img {
-  width: 100%;
-}
-.main_section_ourPrinters .section_div-ourPrintersGrid div a,
-.main_section_ourPrinters .section_div-ourPrintersGridXL div a,
-.main_section_ourPrinters .section_div-ourPrintersGridMK4 div a {
-  color: #982F6D;
-  text-decoration: underline;
-  font-weight: 200;
+  width: 80%;
 }
 .main_section_ourPrinters .section_div-ourPrintersGrid .div_ourPrintersGrid-text,
 .main_section_ourPrinters .section_div-ourPrintersGridXL .div_ourPrintersGrid-text,
@@ -550,10 +573,10 @@ footer {
   font-size: 20px;
 }
 .main_section_ourPrinters .section_div-ourPrintersGridXL {
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 1.05fr 1fr;
 }
 .main_section_ourPrinters .section_div-ourPrintersGridMK4 {
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1.05fr;
 }
 
 /***********************************/
@@ -786,8 +809,9 @@ footer {
 
 /***********************************/
 .img-cricut {
-  background: url("https://library.byui.edu/maclab/img/cricut/cricuthero.jpg");
-  position: relative; }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/cricut/cricuthero.JPG?raw=true");
+  position: relative;
+}
 
 .section_div-bannerHeading {
   font-size: 50px;
@@ -864,12 +888,10 @@ footer {
 }
 
 /***********************************/
-.main-section-faqCricut {
-  padding: 150px 180px; }
-
 .img-adobeHelp {
-  background: url("https://library.byui.edu/maclab/img/adobeHelp/heroadobe.png");
-  position: relative; }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/adobeHelp/heroadobe.png?raw=true");
+  position: relative;
+}
 
 .img-adobeHelp::after {
   content: "";
@@ -927,7 +949,7 @@ footer {
 .main_section-ourHours .main_section-divHours {
   display: grid;
   grid-gap: 20px;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
   padding: 60px 0px 50px 0px;
 }
 .main_section-ourHours .main_section-divHours div {
@@ -937,13 +959,15 @@ footer {
   background-color: white;
   display: flex;
   flex-direction: column;
-  align-items: left;
+  align-items: flex-start;
   justify-content: center;
+  text-align: left;
 }
 .main_section-ourHours .main_section-divHours h4 {
   font-size: 30px;
   font-weight: 700;
-  padding-bottom: 30px;
+  margin-top: 0;
+  margin-bottom: 5px;
 }
 .main_section-ourHours .main_section-divHours p {
   font-size: 20px;
@@ -953,14 +977,23 @@ footer {
   font-weight: 700;
 }
 
+#h4First {
+  margin-top: 0;
+}
+#h4First p {
+  margin-top: 10px;
+}
+
 .main_section-contactUs {
   padding: 80px 150px;
   width: 100%;
   background-color: white;
   display: grid;
-  grid-template-columns: 1fr 1fr; }
+  grid-gap: 30px;
+  grid-template-columns: 1fr 1fr;
+}
 
-.imput-form[type=text],
+.input-form[type=text],
 select,
 textarea {
   width: 100%;
@@ -971,9 +1004,13 @@ textarea {
   margin-top: 6px;
   margin-bottom: 16px;
   resize: vertical;
-  border-radius: 10px; }
+  border-radius: 15px;
+  -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+}
 
-.imput-form[type=submit] {
+input[type=submit] {
   background-color: #982F6D;
   color: white;
   padding: 12px 20px;
@@ -983,7 +1020,11 @@ textarea {
 }
 
 input[type=submit]:hover {
-  background-color: #982F6D;
+  color: #982F6D;
+  background-color: white;
+  -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
 }
 
 .container {
@@ -999,20 +1040,38 @@ label {
 }
 
 .section_div-floorplan {
-  padding: 24px; }
-  .section_div-floorplan img {
-    width: 472px;
-    height: 308px;
-    left: 795px;
-    top: 840px; }
-  .section_div-floorplan p {
-    font-size: 16;
-    font-weight: 400;
-    line-height: 22px; }
+  padding: 24px;
+}
+.section_div-floorplan img {
+  width: 100%;
+}
+.section_div-floorplan p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-bottom: 20px;
+}
 
 /***********************************/
 .img-equipment {
-  background: url("/img/equipment/heroEquipment.JPG"); }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/heroEquipment.jpg?raw=true");
+  position: relative;
+}
+
+.img-equipment::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
+  background: -webkit-linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
+  background: linear-gradient(90deg, rgba(0, 0, 0, 0.8674063375) 34%, rgba(0, 212, 255, 0) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#00d4ff",GradientType=1);
+}
 
 .main_section-equipment {
   padding: 30px 150px;
@@ -1026,7 +1085,8 @@ label {
 #section_div-equipmentCards {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px; }
+  grid-gap: 40px;
+}
 
 .equipmentCard {
   display: flex;
@@ -1037,11 +1097,6 @@ label {
   -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
   box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
 }
-
-#section_div-equipmentCards {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 40px; }
 
 .pictureBackground {
   display: flex;
@@ -1074,8 +1129,10 @@ label {
 /***********************************/
 .main_section-policies {
   background-color: #F0F0F0;
-  padding: 100px 150px; }
-  .main_section-policies h2 {
-    margin-bottom: 40px; }
+  padding: 100px 150px;
+}
+.main_section-policies h2 {
+  margin-bottom: 40px;
+}
 
 /*# sourceMappingURL=style.css.map */
