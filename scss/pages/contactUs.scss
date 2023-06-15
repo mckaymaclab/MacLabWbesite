@@ -1,40 +1,50 @@
-.main_section-ourHours{
-    padding: 80px $paddingLeftRight;
-    width: 100%;
-    background-color: $color2;
+.main_section-ourHours {
+  padding: 80px $paddingLeftRight;
+  width: 100%;
+  background-color: $color2;
 
-    .main_section-divHours{
-        display: grid;
-        grid-gap: 20px;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-        padding: 60px 0px 50px 0px;
+  .main_section-divHours {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 60px 0px 50px 0px;
 
-        div{
-            border-radius: 30px;
-            height: 195px;
-            padding: 0px 35px;
-            background-color: white;
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            justify-content: center;
-        }
-
-        h4{
-            font-size: 30px;
-            font-weight: 700;
-            padding-bottom: 30px;
-        }
-
-        p{
-            font-size: 20px;
-        }
-
-        #devotime{
-            font-size: 12px;
-            font-weight: 700;
-        }
+    div {
+      border-radius: 30px;
+      height: 195px;
+      padding: 0px 35px;
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      text-align: left;
     }
+
+    h4 {
+      font-size: 30px;
+      font-weight: 700;
+      margin-top: 0; // Reset the top margin for all h4 elements
+      margin-bottom: 5px;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    #devotime {
+      font-size: 12px;
+      font-weight: 700;
+    }
+  }
+}
+
+
+#h4First {
+  margin-top: 0; // Reset the margin for the first h4
+  p {
+    margin-top: 10px; // Add additional margin to the first p element
+  }
 }
 
 .main_section-contactUs {
@@ -46,7 +56,7 @@
     grid-template-columns: 1fr 1fr;
   }
   
-  .imput-form[type=text],
+  .input-form[type=text],
   select,
   textarea {
     width: 100%;
@@ -63,7 +73,7 @@
     box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
   }
   
-  .imput-form[type=submit] {
+  input[type=submit] {
     background-color: $color1;
     color: white;
     padding: 12px 20px;
@@ -73,7 +83,11 @@
   }
   
   input[type=submit]:hover {
-    background-color: $color1;
+    color: $color1;
+    background-color: white;
+    -webkit-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    -moz-box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
+    box-shadow: -1px 5px 5px 0px rgba(0,0,0,0.22);
   }
   
   .container {
