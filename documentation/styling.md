@@ -19,7 +19,7 @@ The styles for this project are divided in 3 main folders
 Contains all the styles for the reusable itmes that are repired on each page (navigation menu, footer)
 
 2. GENRAL
-This forlder contains the style rules for design elemtns that are repeated in some of the pages. 
+This folder contains the style rules for design elements that are repeated in some of the pages. 
 on this file you will find 3 files:
 
     2.1 Buttons

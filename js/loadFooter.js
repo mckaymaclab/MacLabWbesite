@@ -4,10 +4,11 @@ class footer  extends HTMLElement{
     }
   
     connectedCallback(){
+     
       this.innerHTML =`
       <div class="footer-divContainer">
       <div class="footer_div-box1">
-          <img src="../img/footer/Design-Elements 1.png" alt="">
+          <img src="https://library.byui.edu/maclab/img/footer/Design-Elements 1.png" alt="">
       </div>
       <div lass="footer_div-box-text">
           <h3>SERVICES</h3>
