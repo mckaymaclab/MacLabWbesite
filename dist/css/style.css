@@ -602,7 +602,7 @@ border-radius: 50px;
 
 /***********************************/
 .img-vr {
-  background: url("/img/vr/VRBannerPhoto.jpg"); }
+  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/vr/VR%20Banner%20Photo.jpg?raw=true"); }
 
 /***********************************/
 .main_section-apps {
@@ -885,7 +885,7 @@ label {
 
 /***********************************/
 .img-equipment {
-  background: url("https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/heroEquipment.jpg?raw=true");
+  background: url("/img/equipment/MicrosoftTeamsimage.jpeg");
   position: relative; }
 
 .img-equipment::after {

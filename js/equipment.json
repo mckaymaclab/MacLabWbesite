@@ -1,29 +1,47 @@
 [
     {
-        "title":"DSLR Camera",
+        "title":"GoPro",
         "Rental-period": "2 Weeks",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/camera.png?raw=true"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/1-01%20(1).png?raw=true"
     },
 
     {
-        "title":"HeadPhones",
+        "title":"lens canon",
         "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/headphones.png?raw=true"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/1-01.png?raw=true"
     },
 
     {
-        "title":"Projector",
+        "title":"Calculator",
         "RentalPeriod": "3 Days",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/projector.png?raw=true"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/2-01%20(1).png?raw=true"
     },
 
     {
-        "title":"P",
+        "title":"Multi Adapter",
         "RentalPeriod": "3 Days",
         "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/videoCamera.png?raw=true"
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/2-01.png?raw=true"
+    },
+    {
+        "title":"Calculator",
+        "RentalPeriod": "3 Days",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01%20(1).png?raw=true"
+    },
+    {
+        "title":"DSLR Camera",
+        "RentalPeriod": "3 Days",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01.png?raw=true"
+    },
+    {
+        "title":"Cricut",
+        "RentalPeriod": "3 Days",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/4-01.png?raw=true"
     }
 ]
