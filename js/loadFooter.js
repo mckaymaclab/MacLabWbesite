@@ -7,7 +7,7 @@ class footer  extends HTMLElement{
       this.innerHTML =`
       <div class="footer-divContainer">
       <div class="footer_div-box1">
-          <img src="../img/footer/Design-Elements 1.png" alt="">
+          <img src="https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/footer/footerimg.png?raw=true" alt="">
       </div>
       <div lass="footer_div-box-text">
           <h3>SERVICES</h3>
