@@ -2,33 +2,28 @@
 //Banner
 
 .img-vr{
-  background: url("/img/vr/VR\ Banner\ Photo.jpg");
+  background: url("/img/vr/VRBannerPhoto.jpg");
 }
 
 /***********************************/
 //Apps section
 
-#main-vr{
-  padding: 0px ;
 
-  h2{
-    padding-left:130px;
-    padding-bottom: 90px;
-  }
-}
 
 .main_section-apps{
-  padding: 90px 0 90px 0;
+  padding: 90px;
 }
 
 .section_div-appsContainer{
-display: flex;
-overflow: scroll;
-padding-left: 100px;
+padding-top: 90px;  
+display: grid;
+grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+// overflow: scroll;
 
-  &::-webkit-scrollbar{
-    display: none;
-  }
+
+  // &::-webkit-scrollbar{
+  //   display: none;
+  // }
 
 }
 
@@ -37,7 +32,13 @@ padding-left: 100px;
   width: 204px;
   height: 356px;
   border-radius: 30px;
-  margin-left: 20px;
+  position: relative;
+
+  img{
+    width: 100%;
+    border-radius: 30px 30px 0px 0px ;
+    position: absolute;
+  }
 }
 
 .div-app-picture{
@@ -112,5 +113,5 @@ padding-left: 100px;
 //VR FAQ
 
 .main-section-faqVr{
-  padding: 150px 180px;
+  padding: 150px $paddingLeftRight;
 }
