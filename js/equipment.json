@@ -1,53 +1,129 @@
 [
     {
+        "title":"DSLR Camera",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01.png?raw=true"
+    },
+
+    {
         "title":"GoPro",
-        "RentalPeriod": "2 Weeks",
+        "RentalPeriod": "3 Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/1-01%20(1).png?raw=true"
     },
 
     {
-        "title":"lens canon",
-        "RentalPeriod": "Same Day Checkout",
+        "title":"DSLR Lens",
+        "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/1-01.png?raw=true"
     },
 
     {
-        "title":"Calculator",
-        "RentalPeriod": "3 Days",
-        "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/2-01%20(1).png?raw=true"
-    },
-
-    {
         "title":"Multi Adapter",
-        "RentalPeriod": "3 Days",
+        "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/2-01.png?raw=true"
     },
+
     {
         "title":"Calculator",
-        "RentalPeriod": "3 Days",
+        "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01%20(1).png?raw=true"
     },
-    {
-        "title":"DSLR Camera",
-        "RentalPeriod": "3 Days",
-        "description": "This is the description of the product fillet text filler text filler text",
-        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01.png?raw=true"
-    },
+
     {
         "title":"Cricut",
-        "RentalPeriod": "3 Days",
+        "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/4-01.png?raw=true"
     },
+
     {
         "title":"Headphones",
         "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/6-01.png?raw=true"
+    },
+
+    {
+        "title":"Projector",
+        "RentalPeriod": "3 Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-07.png?raw=true"
+    },
+
+
+    {
+        "title":"Microphone ",
+        "RentalPeriod": "3 Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-08.png?raw=true"
+    },
+
+    {
+        "title":"Drawing Tablets ",
+        "RentalPeriod": "3 Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-03.png?raw=true"
+    },
+
+    {
+        "title":"HDMI Cord",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/5-01.png?raw=true"
+    },
+
+    {
+        "title":"Surface Pro Chargers",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-01.png?raw=true"
+    },
+
+    {
+        "title":"Tripods",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-02.png?raw=true"
+    },
+
+    {
+        "title":"DVC Camera",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-16.png?raw=true"
+    },
+
+    {
+        "title":"Light Reflector Kits",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-04.png?raw=true"
+    },
+
+    {
+        "title":"Ring Lights",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-06.png?raw=true"
+    },
+
+    {
+        "title":"Plier Kit",
+        "RentalPeriod": "3 Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-09.png?raw=true"
+    },
+
+    {
+        "title":"Tripod Phone Mount",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-10.png?raw=true"
     }
 ]
+
