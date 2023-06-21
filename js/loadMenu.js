@@ -222,15 +222,15 @@ class menu  extends HTMLElement{
         <li>
             <a>Services <i class="fa-solid fa-angle-down"></i></a>
             <ul id="dropdown-content">
-            <a href="https://library.byui.edu/maclab/pages/3dPrinting.html"><li class="dropdown-item">3D Priting</li></a>
+            <a href="https://library.byui.edu/maclab/pages/3dPrinting.html"><li class="dropdown-item">3D Printing</li></a>
             <a href="https://library.byui.edu/maclab/pages/adobeHelp.html"><li class="dropdown-item">Adobe Help</li></a>
             <a href="https://library.byui.edu/maclab/pages/equipment.html"><li class="dropdown-item">Equipement Check Out</li></a>
-            <a href="https://library.byui.edu/maclab/pages/vr.html"><li class="dropdown-item">Vr Lab</li></a>
+            <a href="https://library.byui.edu/maclab/pages/vr.html"><li class="dropdown-item">VR Lab</li></a>
             <a href="https://byui.libcal.com/calendar/events?cid=8606&t=d&d=0000-00-00&cal=8606&ct=36359&inc=0"><li class="dropdown-item">Workshops</li></a>
             <a href="https://library.byui.edu/maclab/pages/cricut.html"><li class="dropdown-item">Cricut</li></a>
             </ul>
           </li>
-          <li><a href="">Contact Us</a></li>         
+          <li><a href="https://library.byui.edu/maclab/pages/contactUs.html">Contact Us</a></li>         
     </ul>
   </nav>`
   }

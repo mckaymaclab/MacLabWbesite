@@ -43,5 +43,11 @@
         "RentalPeriod": "3 Days",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/4-01.png?raw=true"
+    },
+    {
+        "title":"Headphones",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/6-01.png?raw=true"
     }
 ]
