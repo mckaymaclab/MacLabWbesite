@@ -102,14 +102,13 @@ padding: 50px 0 100px 0;
 .section_div-equipment{
 
     display: grid;
-    grid-gap: 20px;
+    grid-gap: 30px;
     //Grid with five colums for each equipment card
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     padding:60px 0 100px 0;
  
     div{
         border-radius: 30px;
-        height: 356px;
         padding: 0 10px;
         background-color: #E1E1E1;
         position: relative;
@@ -140,10 +139,11 @@ padding: 50px 0 100px 0;
         }
     }
 
-    div:hover{
-      background-color: #E6D9E3;
-      color: #982F6D;
-    }
+    /*hover equipment cards*/
+    // div:hover{
+    //   background-color: #E6D9E3;
+    //   color: #982F6D;
+    // }
 }
 
 /***********************************/

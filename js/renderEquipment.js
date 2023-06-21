@@ -14,7 +14,7 @@ const displayEquipment = async () =>{
             </div>
             <div class="eq-description">
                 <p class="eq-name"><strong>${item.title}</strong></p>
-                <p>Details</p>
+                <p>${item.RentalPeriod}</p>
             </div>
         </div>
         `  

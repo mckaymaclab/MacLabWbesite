@@ -7,7 +7,6 @@
   }
 
   //Overlay
-  //Overlay
   .img-3dPrinting::after{
     content: "";
     display: block;
@@ -42,9 +41,13 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        height: 80%;
+        
   
         img {
-          width: 80%;
+          width: 70%;
+          display: block;
+          margin: auto;
         }
       }
   
@@ -53,7 +56,7 @@
         justify-content: center;
         background-color: #f5ebf1;
         border-radius: 30px;
-        padding: 20px;
+        padding: 30px;
         gap: 10px;
   
         h2 {
@@ -61,14 +64,26 @@
         }
   
         h4 {
-          font-size: 30px;
+          font-size: 25px;
           color: black;
           font-weight: bold;
         }
   
         p {
-          font-size: 20px;
+          font-size: 15px;
         }
+
+        //Styles for large screens 
+        @media screen and (min-width: 1900px) {
+          p {
+            font-size: 25px;
+          }
+          h4 {
+            font-size: 35px;
+          } 
+        } 
+         
+
       }
     }
   
@@ -149,15 +164,13 @@
 
   div{
     border-radius: 30px;
-    height: 348px;
+    padding-top: 20px;
     width: 328px;
-    padding: 0 10px;
     background-color: $color2;
-    position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  
+    justify-content: space-between;
     box-shadow: 0px 10px 5px -3px rgba(0,0,0,0.16);
 
     img{
@@ -172,8 +185,6 @@
 
     p{
       display: block;
-      position: absolute;
-      bottom: 0;
       width: 100%;
       padding: 10px 20px 20px 20px;
       background-color: white;
@@ -233,6 +244,7 @@
   display: grid;
   grid-gap: 50px;
   grid-template-columns: 1fr 1fr;
+  align-items: center;
 
   img{
     width: 100%;
@@ -240,8 +252,19 @@
   }
 
   h3{
-    font-size: 25px;
+    font-size: 35px;
     font-weight: bold;
+    margin-bottom: 10px;
+  }
+
+  p{
+    font-size: 25px;
+    line-height:2 ;
+  }
+
+  a{
+    color: $color1;
+    text-decoration: underline;
   }
 }
 

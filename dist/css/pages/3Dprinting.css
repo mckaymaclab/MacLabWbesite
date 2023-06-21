@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$paddingLeftRight".
-        on line 29 of scss/pages/3dPrinting.scss
+        on line 28 of scss/pages/3dPrinting.scss
 
-24:   }
-25: 
-26: /***********************************\/
-27:   //OUR PRINTERS
-28:   .main_section_ourPrinters {
-29:     padding: 80px $paddingLeftRight;
-30:     width: 100%;
-31:     background-color: white;
-32:   
-33:     .section_div-ourPrintersGrid,
-34:     .section_div-ourPrintersGridXL,
+23:   }
+24: 
+25: /***********************************\/
+26:   //OUR PRINTERS
+27:   .main_section_ourPrinters {
+28:     padding: 80px $paddingLeftRight;
+29:     width: 100%;
+30:     background-color: white;
+31:   
+32:     .section_div-ourPrintersGrid,
+33:     .section_div-ourPrintersGridXL,
 
 Backtrace:
-scss/pages/3dPrinting.scss:29
+scss/pages/3dPrinting.scss:28
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/list_literal.rb:75:in `block in _perform'
@@ -73,4 +73,4 @@ scss/pages/3dPrinting.scss:29
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 29 of scss/pages/3dPrinting.scss\A \A 24:   }\A 25: \A 26: /***********************************/\A 27:   //OUR PRINTERS\A 28:   .main_section_ourPrinters {\A 29:     padding: 80px $paddingLeftRight;\A 30:     width: 100%;\A 31:     background-color: white;\A 32:   \A 33:     .section_div-ourPrintersGrid,\A 34:     .section_div-ourPrintersGridXL,"; }
+  content: "Error: Undefined variable: \"$paddingLeftRight\".\A         on line 28 of scss/pages/3dPrinting.scss\A \A 23:   }\A 24: \A 25: /***********************************/\A 26:   //OUR PRINTERS\A 27:   .main_section_ourPrinters {\A 28:     padding: 80px $paddingLeftRight;\A 29:     width: 100%;\A 30:     background-color: white;\A 31:   \A 32:     .section_div-ourPrintersGrid,\A 33:     .section_div-ourPrintersGridXL,"; }

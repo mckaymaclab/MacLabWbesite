@@ -1,7 +1,7 @@
 [
     {
         "title":"GoPro",
-        "Rental-period": "2 Weeks",
+        "RentalPeriod": "2 Weeks",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/1-01%20(1).png?raw=true"
     },

@@ -35,6 +35,7 @@ h2{
     a{
         color: $color1;
         font-size: 20px;
+        text-decoration: underline;
     }
 }
 
@@ -56,6 +57,13 @@ header{
         color: white;
     }
 }
+
+//Banner size modification for MAC 22" screen
+// @media screen and (max-width: 1800px) {
+//   h2 {
+//     color: lightgreen;
+//   }
+// } 
 
 
 .section_div-bannerText{
