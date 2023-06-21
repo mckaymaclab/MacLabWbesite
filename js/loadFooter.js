@@ -22,7 +22,7 @@ class footer  extends HTMLElement{
           <h3>CONTACT US</h3>
           <p>208-496-9550</p>
           <p>mckaymaclab@byui.edu</p>
-          <p>McKay Library #140</p>
+          <p>McKay Library #140A</p>
           <p>IG: @mckaylibrary</p>
       </div>           
       </div>`
