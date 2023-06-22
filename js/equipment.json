@@ -28,7 +28,7 @@
     },
 
     {
-        "title":"Calculator",
+        "title":"Scientific Calculator",
         "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/3-01%20(1).png?raw=true"
@@ -99,7 +99,7 @@
     },
 
     {
-        "title":"Light Reflector Kits",
+        "title":"Soft Box Lights",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-04.png?raw=true"
@@ -124,6 +124,69 @@
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-10.png?raw=true"
-    }
-]
+    },
 
+    {
+        "title":"Mice",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-11.png?raw=true"
+    },
+
+    {
+        "title":"Light Reflector Kits",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-13.png?raw=true"
+    },
+
+    {
+        "title":"Camera Stabilizer",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-14.png?raw=true"
+    },
+
+    {
+        "title":"DVD Drive",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-17.png?raw=true"
+    },
+
+    {
+        "title":"Body Microphone",
+        "RentalPeriod": "3 Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-18.png?raw=true"
+    },
+
+    {
+        "title":"DC Camera",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-19.png?raw=true"
+    },
+
+    {
+        "title":"Green Screen",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-20.png?raw=true"
+    },
+
+    {
+        "title":"Graphing Calculator",
+        "RentalPeriod": "Same Day Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/2-01 (1).png?raw=true"
+    },
+
+    {
+        "title":"Shotgun Mic",
+        "RentalPeriod": "2 Week Checkout",
+        "description": "This is the description of the product fillet text filler text filler text",
+        "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-05.png?raw=true"
+    }
+
+]
