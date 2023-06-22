@@ -759,6 +759,7 @@ footer {
   height: 356px;
   border-radius: 30px;
   position: relative;
+  margin: 20px;
 }
 .div-app img {
   width: 100%;
@@ -776,6 +777,9 @@ footer {
   border-radius: 0 0 30px 30px;
   background-color: rgb(224, 224, 224);
   padding: 20px;
+}
+.div-app-info p {
+  padding: 2px;
 }
 
 /***********************************/
