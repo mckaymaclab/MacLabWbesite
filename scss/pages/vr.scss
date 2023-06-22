@@ -8,8 +8,6 @@
 /***********************************/
 //Apps section
 
-
-
 .main_section-apps{
   padding: 90px;
 }
@@ -33,6 +31,7 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   height: 356px;
   border-radius: 30px;
   position: relative;
+  margin: 20px;
 
   img{
     width: 100%;
@@ -51,6 +50,10 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   border-radius:0 0 30px 30px;
   background-color: rgb(224, 224, 224);
   padding: 20px;
+
+  p{
+    padding: 2px;
+  }
 }
 
 /***********************************/
