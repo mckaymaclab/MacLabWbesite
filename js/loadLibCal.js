@@ -65,7 +65,7 @@ function getCalendarItems (){
                             <div style="" class="card-body">
                                 <h5 class="p-2 card-title">${event.title}</h5>
                                 <h6 class="p-2 card-subtitle mb-2 text-muted">${humanStart} ${humanStartTime}</h6>
-                                <a href="${event.url.public}" class="p-2">Go to Event</a>
+                                <a href="${event.url.public}" class="p-2" style="color: #c84392;">Go to Event</a>
                                 <p class="p-2 card-text">${event.description}</p>
                             </div>
                         </div>
