@@ -9,20 +9,16 @@
 //Apps section
 
 .main_section-apps{
-  padding: 90px;
+  padding: 80px $paddingLeftRight;
 }
 
 .section_div-appsContainer{
-padding-top: 90px;  
+padding: 90px;  
 display: grid;
-grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-// overflow: scroll;
-
-
-  // &::-webkit-scrollbar{
-  //   display: none;
-  // }
-
+grid-auto-flow: column;
+grid-auto-columns: 21%;
+overflow-x: auto;
+overscroll-behavior-inline: contain;
 }
 
 .div-app{
@@ -31,7 +27,6 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   height: 356px;
   border-radius: 30px;
   position: relative;
-  margin: 20px;
 
   img{
     width: 100%;
@@ -57,64 +52,8 @@ grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 /***********************************/
-//VR information
-
-.main_section-ourVr{
- padding: 80px 180px;
- background-color: rgb(238, 238, 238);
-}
-
-.section_div-vrGrid{
-  width: 100%;
-  padding-top: 70px;
-  display: grid;
-  grid-gap: 70px;
-  grid-template-columns: 1fr 1fr;
-
-  div{
-    height: 350px;
-
-    img{
-
-      width: 80%;
-      background-color: white;
-    }
-
-  }
-}
-
-.div_vrGrid-picture{
-  display: flex;
-  justify-content: center;
-}
-
-
-.div_vrGrid-text{
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-  
-  h2{
-    font-size: 50px;
-    font-weight: 300;
-  }
-
-  h4{
-    font-size: 20px;
-    font-weight: 600;
-  }
-
-  p{
-    padding-top:30px ;
-    font-size: 24px;
-  }
-}
-
-/***********************************/
 //VR FAQ
 
 .main-section-faqVr{
-  padding: 150px $paddingLeftRight;
+  padding: 5px $paddingLeftRight;
 }
