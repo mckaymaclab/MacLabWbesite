@@ -159,7 +159,7 @@ header .section-headerImage {
   font-weight: 500;
   color: white;
   font-size: 16px;
-  border-radius: 10px;
+  border-radius: 30px;
   text-align: center;
   background-color: #982F6D;
   -webkit-box-shadow: -1px 5px 6px 0px rgba(0, 0, 0, 0.3);
@@ -744,13 +744,16 @@ footer {
 
 /***********************************/
 .main_section-apps {
-  padding: 90px;
+  padding: 80px 150px;
 }
 
 .section_div-appsContainer {
-  padding-top: 90px;
+  padding: 90px;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-auto-flow: column;
+  grid-auto-columns: 21%;
+  overflow-x: auto;
+  overscroll-behavior-inline: contain;
 }
 
 .div-app {
@@ -759,7 +762,6 @@ footer {
   height: 356px;
   border-radius: 30px;
   position: relative;
-  margin: 20px;
 }
 .div-app img {
   width: 100%;
@@ -783,53 +785,8 @@ footer {
 }
 
 /***********************************/
-.main_section-ourVr {
-  padding: 80px 180px;
-  background-color: rgb(238, 238, 238);
-}
-
-.section_div-vrGrid {
-  width: 100%;
-  padding-top: 70px;
-  display: grid;
-  grid-gap: 70px;
-  grid-template-columns: 1fr 1fr;
-}
-.section_div-vrGrid div {
-  height: 350px;
-}
-.section_div-vrGrid div img {
-  width: 80%;
-  background-color: white;
-}
-
-.div_vrGrid-picture {
-  display: flex;
-  justify-content: center;
-}
-
-.div_vrGrid-text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 40px;
-}
-.div_vrGrid-text h2 {
-  font-size: 50px;
-  font-weight: 300;
-}
-.div_vrGrid-text h4 {
-  font-size: 20px;
-  font-weight: 600;
-}
-.div_vrGrid-text p {
-  padding-top: 30px;
-  font-size: 24px;
-}
-
-/***********************************/
 .main-section-faqVr {
-  padding: 150px 150px;
+  padding: 5px 150px;
 }
 
 .main-cricut {
@@ -883,40 +840,10 @@ footer {
 }
 
 /***********************************/
-.main_section-howToUseIt {
-  padding: 80px 180px;
-  width: 100%;
-  background-color: #e1e1e1;
+.faq-container {
+  padding: 5px 150px;
 }
 
-.section_div-cricutGrid {
-  width: 100%;
-  display: grid;
-  padding-top: 100px;
-  grid-template-columns: 1fr 1fr;
-}
-.section_div-cricutGrid div {
-  height: 350px;
-}
-.section_div-cricutGrid div img {
-  width: 100%;
-}
-.section_div-cricutGrid h2 {
-  font-size: 40px;
-  color: black;
-  margin: 40px;
-}
-.section_div-cricutGrid p {
-  font-size: 24px;
-  margin: 50px;
-}
-
-.div_CricutGrid-picture {
-  display: flex;
-  justify-content: center;
-}
-
-/***********************************/
 a {
   color: #c84392;
 }
@@ -951,15 +878,15 @@ a {
   padding: 60px 150px;
   background-color: #F0F0F0;
 }
-.main_section-programs .section_div-appsContainer {
+.main_section-programs .section_div-adobeappsContainer {
   padding: 90px 0px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.main_section-programs .section_div-appsContainer div {
+.main_section-programs .section_div-adobeappsContainer div {
   margin-bottom: 80px;
 }
-.main_section-programs .section_div-appsContainer img {
+.main_section-programs .section_div-adobeappsContainer img {
   width: 100%;
   max-width: 171px;
   height: 171px;
@@ -968,7 +895,7 @@ a {
   background-color: white;
   border-radius: 30px;
 }
-.main_section-programs .section_div-appsContainer p {
+.main_section-programs .section_div-adobeappsContainer p {
   text-align: center;
   font-size: 24px;
   padding-top: 8px;
