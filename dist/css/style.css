@@ -744,7 +744,7 @@ footer {
 
 /***********************************/
 .main_section-apps {
-  padding: 80px 150px;
+  padding: 90px 150px;
   position: relative;
 }
 
@@ -753,8 +753,11 @@ footer {
   top: 50%;
   width: 50px;
   height: 50px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color: white;
+  background-color: white;
+  -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  color: black;
   font-size: 35px;
   text-align: center;
   line-height: 50px;
@@ -771,7 +774,7 @@ footer {
 }
 
 .section_div-appsContainer {
-  padding-top: 50px;
+  padding: 50px 0px;
   display: flex;
   overflow-x: auto;
   overscroll-behavior-inline: contain;
@@ -779,7 +782,7 @@ footer {
 }
 
 .div-app {
-  background-color: rgb(66, 66, 66);
+  background-color: white;
   width: 204px;
   height: 356px;
   border-radius: 30px;
@@ -799,10 +802,18 @@ footer {
 }
 
 .div-app-info {
-  height: 75px;
+  height: 100px;
   border-radius: 0 0 30px 30px;
-  background-color: rgb(224, 224, 224);
-  padding: 20px;
+  background-color: white;
+  -webkit-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  -moz-box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  box-shadow: -1px 5px 5px 0px rgba(0, 0, 0, 0.22);
+  padding: 15px;
+}
+
+.div-app-info p {
+  margin: 15px 0;
+  line-height: 1;
 }
 
 .div-app:last-child {
