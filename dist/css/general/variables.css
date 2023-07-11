@@ -1,3 +1,11 @@
+:root {
+  --paddingLeftRight: 200px;
+}
 
+@media screen and (min-width: 1900px) {
+  body {
+    --paddingLeftRight: 400px;
+  }
+}
 
 /*# sourceMappingURL=variables.css.map */

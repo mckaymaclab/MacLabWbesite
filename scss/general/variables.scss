@@ -3,8 +3,13 @@ $color1: #982F6D;
 $color2: #F0F0F0;
 
 
+:root {
+    --paddingLeftRight: 200px;
+  }
 
-//Page Padding left and right
-$paddingLeftRight: 150px;
-
-
+@media screen and (min-width: 1900px) {
+    body{
+    
+        --paddingLeftRight: 400px;
+    }
+  } 
