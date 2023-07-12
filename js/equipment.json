@@ -30,7 +30,7 @@
     },
 
     {
-        "title":"DC Cameras",
+        "title":"Digital Cameras",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-19.png?raw=true"
@@ -108,21 +108,21 @@
     },
 
     {
-        "title":"Surface Pro Chargers",
+        "title":"Surface Pro Charger",
         "RentalPeriod": "Same Day Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-01.png?raw=true"
     },
 
     {
-        "title":"Soft Box Lights",
+        "title":"Soft Box Light Set",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-04.png?raw=true"
     },
 
     {
-        "title":"Ring Lights",
+        "title":"Ring Light",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-06.png?raw=true"
@@ -143,7 +143,7 @@
     },
 
     {
-        "title":"Light Reflector Kits",
+        "title":"Light Reflector Kit",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-13.png?raw=true"
@@ -186,7 +186,7 @@
     },
 
     {
-        "title":"Shotgun Mics",
+        "title":"Shotgun Mic",
         "RentalPeriod": "2 Week Checkout",
         "description": "This is the description of the product fillet text filler text filler text",
         "Picture": "https://github.com/mckaymaclab/MacLabWbesite/blob/main/img/equipment/equipmentcards/Equipment pictures-05.png?raw=true"

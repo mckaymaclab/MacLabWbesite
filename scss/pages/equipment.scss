@@ -24,7 +24,7 @@
 
 
   .main_section-equipment{
-    padding: 30px $paddingLeftRight;
+    padding: 30px var(--paddingLeftRight);
   }
 
 
@@ -87,7 +87,7 @@
   //Policies
   .main_section-policies{
     background-color: $color2;
-    padding: 100px $paddingLeftRight ;
+    padding: 100px var(--paddingLeftRight) ;
 
     h2{
       margin-bottom: 40px;

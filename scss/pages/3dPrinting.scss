@@ -25,7 +25,7 @@
 /***********************************/
   //OUR PRINTERS
   .main_section_ourPrinters {
-    padding: 80px $paddingLeftRight;
+    padding: 80px var(--paddingLeftRight);
     width: 100%;
     background-color: white;
   
@@ -74,7 +74,7 @@
         }
 
         //Styles for large screens 
-        @media screen and (min-width: 1900px) {
+        @media screen and (min-width: 2000px) {
           p {
             font-size: 25px;
           }
@@ -100,7 +100,7 @@
   //How to Print
 
   .main_section-howToPrint{
-    padding: 80px $paddingLeftRight;
+    padding: 80px var(--paddingLeftRight);
     width: 100%;
     background-color: $color2;
   }
@@ -112,6 +112,9 @@
     padding-top: 50px;
     grid-template-columns: 1fr 1fr;
     
+    #img-printSettings{
+      padding: 80px;
+    }
 
     div{
 
@@ -151,7 +154,7 @@
 // OUR FILAMENTS SECTION
 
 .main_section-Filaments{
-  padding: 80px $paddingLeftRight;
+  padding: 80px var(--paddingLeftRight);
   width: 100%;
   background-color: white;
 }
@@ -231,9 +234,13 @@
 
 
 .main_section-supports{
-  padding: 80px $paddingLeftRight;
+  padding: 80px var(--paddingLeftRight);
   width: 100%;
   background-color: #E1E1E1;
+
+  h2{
+    margin-bottom: 40px;
+  }
 }
 
 .section_div-supports{
@@ -268,13 +275,6 @@
   }
 }
 
-
-// This Needs a class to dont affect all the page
-// ul{
-//   font-size: 20px;
-//   padding-top: 25px;
-//   list-style-type: disc;
-// }
 
 
 

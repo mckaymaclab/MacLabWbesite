@@ -1,11 +1,8 @@
 :root {
-  --paddingLeftRight: 200px;
-}
+  --paddingLeftRight: 200px; }
 
-@media screen and (min-width: 1900px) {
+@media screen and (min-width: 2000px) {
   body {
-    --paddingLeftRight: 400px;
-  }
-}
+    --paddingLeftRight: 400px; } }
 
 /*# sourceMappingURL=variables.css.map */

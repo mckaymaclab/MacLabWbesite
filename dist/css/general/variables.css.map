@@ -1,1 +1,7 @@
-{"version":3,"sourceRoot":"","sources":["../../../scss/general/variables.scss"],"names":[],"mappings":"AAKA;EACI;;;AAGJ;EACI;IAEI","file":"variables.css"}
+{
+"version": 3,
+"mappings": "AAMA,KAAM;EAEF,kBAAkB,CAAC,MAAM;;AAE7B,qCAAsC;EAClC,IAAI;IAEA,kBAAkB,CAAC,MAAM",
+"sources": ["../../../scss/general/variables.scss"],
+"names": [],
+"file": "variables.css"
+}

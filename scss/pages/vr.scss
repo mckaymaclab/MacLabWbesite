@@ -9,7 +9,7 @@
 //Apps section
 
 .main_section-apps {
-  padding: 90px $paddingLeftRight;
+  padding: 90px var(--paddingLeftRight);
   position: relative;
 }
 
@@ -28,6 +28,7 @@
   line-height: 50px;
   cursor: pointer;
   border-radius: 50%;
+  z-index: 2;
 }
 
 .left-arrow {
@@ -45,9 +46,11 @@
   overscroll-behavior-inline: contain;
   overflow-y: hidden;
 }
+
 .section_div-appsContainer::-webkit-scrollbar { width: 0 !important }
 
 .div-app {
+  margin-top: 20px;
   background-color: white;
   width: 204px;
   border-radius: 30px;
@@ -74,15 +77,9 @@
   padding: 15px;
 }
 
-.div-app-info p {
-  
-
-}
-
-
 /***********************************/
 //VR FAQ
 
 .main-section-faqVr{
-  padding: 5px $paddingLeftRight;
+  padding: 5px var(--paddingLeftRight);
 }

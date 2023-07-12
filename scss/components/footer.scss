@@ -4,7 +4,7 @@ footer{
 }
 
 .footer-divContainer{
-    padding:40px 40px;
+    padding:40px var(--paddingLeftRight);
     display: grid;
     grid-template-columns: 60% 1fr 1fr;
 
@@ -13,11 +13,15 @@ footer{
         width: 250px;
     }
 
+    .footer_div-box1{
+        text-align: left;
+    }
+
     div{
         width: 100%;
         // border: 1px solid rgb(205, 205, 205);
         color: white;
-
+        text-align: right;
 
         h3{
             font-size: 20px;
@@ -26,6 +30,7 @@ footer{
         }
         p{
             font-weight: 100;
+            margin: 0;
         }    
         a{
             color: white;

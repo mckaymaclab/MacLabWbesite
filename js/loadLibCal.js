@@ -47,34 +47,46 @@ function getCalendarItems (){
         let timeOptions = {hour: 'numeric', minute: 'numeric', hour12: true };
         let output = '';
             console.log(data.events);
-            data.events.forEach(event => {
+            // If there is not comming events
+            if(data.events.length === 0){
+                console.log("No events schedule currently")
 
-            // format date time
-            startDate = Date.parse(event.start);
-            startObject = new Date(startDate);
-            humanStart = startObject.toLocaleString('en-US', dateOptions);
+                output+=`
+                <div class="no-events"> No upcoming events <div> 
+                `
+            }
+            else
+            {
+                data.events.forEach(event => {
 
-            startTime = Date.parse(event.start);
-            startTimeObject = new Date(startTime);
-            humanStartTime = startTimeObject.toLocaleTimeString('en-US', timeOptions);
-            //console.log(humanStartTime);
+                // format date time
+                startDate = Date.parse(event.start);
+                startObject = new Date(startDate);
+                humanStart = startObject.toLocaleString('en-US', dateOptions);
+
+                startTime = Date.parse(event.start);
+                startTimeObject = new Date(startTime);
+                humanStartTime = startTimeObject.toLocaleTimeString('en-US', timeOptions);
+                //console.log(humanStartTime);
 
 
-                       output+=`
-                       <div style="margin: 10px 10px 10px 10px; width: 400px" class="mb-3 card d-flex flex-row" style="width: 18rem;">
-                            <div style="" class="card-body">
-                                <h5 class="p-2 card-title">${event.title}</h5>
-                                <h6 class="p-2 card-subtitle mb-2 text-muted">${humanStart} ${humanStartTime}</h6>
-                                <a href="${event.url.public}" class="p-2" style="color: #c84392;">Go to Event</a>
-                                <p class="p-2 card-text">${event.description}</p>
+                        output+=`
+                        <div style="margin: 10px 10px 10px 10px; width: 400px" class="mb-3 card d-flex flex-row" style="width: 18rem;">
+                                <div style="" class="card-body">
+                                    <h5 class="p-2 card-title">${event.title}</h5>
+                                    <h6 class="p-2 card-subtitle mb-2 text-muted">${humanStart} ${humanStartTime}</h6>
+                                    <a href="${event.url.public}" class="p-2" style="color: #c84392;">Go to Event</a>
+                                    <p class="p-2 card-text">${event.description}</p>
+                                </div>
                             </div>
-                        </div>
-                       `;
-          });
+                        `;
+                });
+            }
 
           document.getElementById('output').innerHTML = output;
 
     })
+    
     .catch(err => {
 
         // Log any errors

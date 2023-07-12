@@ -1,5 +1,5 @@
 .main_section-ourHours {
-  padding: 80px $paddingLeftRight;
+  padding: 80px var(---paddingLeftRight);
   width: 100%;
   background-color: $color2;
 
@@ -48,7 +48,7 @@
 }
 
 .main_section-contactUs {
-    padding: 80px $paddingLeftRight;
+    padding: 80px var(---paddingLeftRight);
     width: 100%;
     background-color: white;
     display: grid;

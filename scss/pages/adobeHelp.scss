@@ -28,7 +28,7 @@
 
 .main_section-helpText{
 
-  padding: 90px $paddingLeftRight;
+  padding: 90px var(--paddingLeftRight);
 }
 
 
@@ -38,13 +38,14 @@
 
 .main_section-programs{
 
-  padding: 60px $paddingLeftRight;
+  padding: 60px var(--paddingLeftRight);
   background-color: $color2;
 
   .section_div-adobeappsContainer{
 
   padding: 90px 0px;
   display: grid;
+  grid-gap: 70px;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 
   div{
@@ -54,17 +55,14 @@
 
   img{
     width: 100%;
-    max-width: 171px;
-    height: 171px;
     display: block;
-    margin: auto;
     background-color: white;
     border-radius: 30px;
   }
   p{
-    text-align: center;
     font-size: 24px;
     padding-top:8px;
+    text-align: center;
   }
   }
  

@@ -70,7 +70,7 @@ header{
 
     z-index: 1;
     width: 38%;
-    margin-left:130px;
+    margin-left:var(--paddingLeftRight);
     
 
   .section_div-bannerHeading{
@@ -99,7 +99,7 @@ header{
 /**************** FAQ Section *******************/
 //Applied for pages: Vr, Cricut, Adobe Help, Equipment, 3D Printing  
 .faq-container{
-    padding: 150px $paddingLeftRight;
+    margin: 100px 0px;
 }
 
 .faq-grid{

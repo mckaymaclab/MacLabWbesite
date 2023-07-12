@@ -1,15 +1,16 @@
 // Colors
 $color1: #982F6D;
 $color2: #F0F0F0;
+$paddingLeftRight: 200px;
 
 
 :root {
+  // Variables for padding at the left and right of each page (laptop screen)
     --paddingLeftRight: 200px;
   }
-
-@media screen and (min-width: 1900px) {
-    body{
-    
+@media screen and (min-width: 2000px) {
+    body{ 
+  // Variables for padding at the left and right of each page (large screen )
         --paddingLeftRight: 400px;
     }
   } 

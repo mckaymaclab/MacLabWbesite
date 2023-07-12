@@ -96,7 +96,7 @@ padding: 50px 0 100px 0;
 /***********************************/
 // Equipment Section
 .main_section-equipment{
-  padding: 80px $paddingLeftRight 20px $paddingLeftRight;
+  padding: 80px var(--paddingLeftRight) 20px var(--paddingLeftRight);
 }
 
 .section_div-equipment{
@@ -152,7 +152,7 @@ padding: 50px 0 100px 0;
 .main_section-calendar{
 
   background-color: $color2;
-  padding: 50px $paddingLeftRight 80px $paddingLeftRight;
+  padding: 50px var(--paddingLeftRight) 80px var(--paddingLeftRight);
 }
 
 .section_div-calendar{
@@ -167,12 +167,20 @@ padding: 50px 0 100px 0;
   margin: 5px 0 50px 0;
 }
 
+.no-events{
+  display: flex;
+  height: 300px;
+  font-size: 30px;
+  font-weight: 600;
+  align-items: center;
+}
+
 /***********************************/
 // Slide Show 
 
 .main_section-slideshow{
 
-  padding: 0px $paddingLeftRight;
+  padding: 0px var(--paddingLeftRight);
   padding-bottom: 40px;
 }
 

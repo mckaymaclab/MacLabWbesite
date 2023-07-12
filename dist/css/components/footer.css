@@ -3,20 +3,24 @@ footer {
   width: 100%; }
 
 .footer-divContainer {
-  padding: 40px 40px;
+  padding: 40px var(--paddingLeftRight);
   display: grid;
   grid-template-columns: 60% 1fr 1fr; }
   .footer-divContainer img {
     width: 250px; }
+  .footer-divContainer .footer_div-box1 {
+    text-align: left; }
   .footer-divContainer div {
     width: 100%;
-    color: white; }
+    color: white;
+    text-align: right; }
     .footer-divContainer div h3 {
       font-size: 20px;
       margin-bottom: 15px;
       color: white; }
     .footer-divContainer div p {
-      font-weight: 100; }
+      font-weight: 100;
+      margin: 0; }
     .footer-divContainer div a {
       color: white;
       font-weight: 100;
