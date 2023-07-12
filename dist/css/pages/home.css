@@ -1,21 +1,21 @@
 /*
 Error: Undefined variable: "$color2".
-        on line 154 of scss/pages/home.scss
+        on line 164 of scss/pages/home.scss
 
-149: /***********************************\/
-150: // Calendar 
-151: 
-152: .main_section-calendar{
-153: 
-154:   background-color: $color2;
-155:   padding: 50px var(--paddingLeftRight) 80px var(--paddingLeftRight);
-156: }
-157: 
-158: .section_div-calendar{
-159:     /* 
+159: /***********************************\/
+160: // Calendar 
+161: 
+162: .main_section-calendar{
+163: 
+164:   background-color: $color2;
+165:   padding: 50px var(--paddingLeftRight) 80px var(--paddingLeftRight);
+166: }
+167: 
+168: .section_div-calendar{
+169:     /* 
 
 Backtrace:
-scss/pages/home.scss:154
+scss/pages/home.scss:164
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 /Library/Ruby/Gems/2.6.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -69,4 +69,4 @@ scss/pages/home.scss:154
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$color2\".\A         on line 154 of scss/pages/home.scss\A \A 149: /***********************************/\A 150: // Calendar \A 151: \A 152: .main_section-calendar{\A 153: \A 154:   background-color: $color2;\A 155:   padding: 50px var(--paddingLeftRight) 80px var(--paddingLeftRight);\A 156: }\A 157: \A 158: .section_div-calendar{\A 159:     /* "; }
+  content: "Error: Undefined variable: \"$color2\".\A         on line 164 of scss/pages/home.scss\A \A 159: /***********************************/\A 160: // Calendar \A 161: \A 162: .main_section-calendar{\A 163: \A 164:   background-color: $color2;\A 165:   padding: 50px var(--paddingLeftRight) 80px var(--paddingLeftRight);\A 166: }\A 167: \A 168: .section_div-calendar{\A 169:     /* "; }
